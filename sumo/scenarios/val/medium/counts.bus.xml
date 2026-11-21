@@ -1,0 +1,14 @@
+<data>
+    <interval id="cam" begin="0" end="3600">
+        <edge id="BH_J0_J5" entered="12"/>
+        <edge id="BH_J5_J0" entered="12"/>
+        <edge id="LTK_J0_J1" entered="9"/>
+        <edge id="LTK_J1_J2" entered="9"/>
+        <edge id="LTK_J2_J1" entered="9"/>
+        <edge id="LTK_J1_J0" entered="9"/>
+        <edge id="THT_J2_J3" entered="8"/>
+        <edge id="THT_J3_J2" entered="8"/>
+        <edge id="TT_J5_J3" entered="6"/>
+        <edge id="TT_J3_J5" entered="6"/>
+    </interval>
+</data>

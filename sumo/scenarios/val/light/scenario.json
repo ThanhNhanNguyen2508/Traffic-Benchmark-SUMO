@@ -1,0 +1,17 @@
+{
+ "split": "val",
+ "setting": "light",
+ "seed": 2002,
+ "scale": 0.25,
+ "source_window": {
+  "session": "2026-11-12_0530-0700",
+  "from": "05:30",
+  "to": "06:30"
+ },
+ "vehicles": {
+  "motorcycle": 3192,
+  "passenger": 539,
+  "truck": 114,
+  "bus": 39
+ }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "j02-camera-directions-1",
+  "_comment": "Per camera and direction: which measure of the demand settings drives which SUMO edges. Edges are copied from camera_segments.json (build_demand.py checks they match). fullframe_5050: full-frame rate x 0.5 per direction (legacy). directional_roi: ROI rate (FORWARD/REVERSE) x 1.0 per edge. source_index = index into camera_segments.json directions.",
+  "cameras": {
+    "Cam_Ly_Thuong_Kiet_Bac_Hai": {
+      "mode": "fullframe_5050",
+      "directions": [
+        {"source_index": 0, "measure": "fullframe", "split_factor": 0.5, "edges": ["BH_J0_J5"]},
+        {"source_index": 1, "measure": "fullframe", "split_factor": 0.5, "edges": ["BH_J5_J0"]}
+      ],
+      "caveats": ["direction split is the inherited unverified 50/50 assumption"]
+    },
+    "Cam_To_Hien_Thanh_2": {
+      "mode": "directional_roi",
+      "directions": [
+        {"source_index": 0, "measure": "FORWARD", "split_factor": 1.0, "edges": ["LTK_J0_J1", "LTK_J1_J2"]},
+        {"source_index": 1, "measure": "REVERSE", "split_factor": 1.0, "edges": ["LTK_J2_J1", "LTK_J1_J0"]}
+      ],
+      "caveats": [
+        "beta calibrated on full-frame counts; transfer to ROI counts is unvalidated",
+        "one ROI rate is applied to each edge of the two-edge chain LTK J0-J1-J2 (inherited network-model assumption, not two independent observations)"
+      ]
+    },
+    "Cam_To_Hien_Thanh_1": {
+      "mode": "directional_roi",
+      "directions": [
+        {"source_index": 0, "measure": "FORWARD", "split_factor": 1.0, "edges": ["THT_J2_J3"]},
+        {"source_index": 1, "measure": "REVERSE", "split_factor": 1.0, "edges": ["THT_J3_J2"]}
+      ],
+      "caveats": ["beta calibrated on full-frame counts; transfer to ROI counts is unvalidated"]
+    },
+    "Cam_Thanh_Thai_To_Hien_Thanh": {
+      "mode": "directional_roi",
+      "directions": [
+        {"source_index": 0, "measure": "FORWARD", "split_factor": 1.0, "edges": ["TT_J5_J3"]},
+        {"source_index": 1, "measure": "REVERSE", "split_factor": 1.0, "edges": ["TT_J3_J5"]}
+      ],
+      "caveats": [
+        "beta calibrated on full-frame counts; transfer to ROI counts is unvalidated",
+        "modeling proxy: field of view is mostly along To Hien Thanh near the Thanh Thai junction; ROI rates are assigned to the original Thanh Thai edges TT_J5_J3/TT_J3_J5 by user decision; not a direct observation of those edges"
+      ]
+    }
+  }
+}

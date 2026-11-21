@@ -1,0 +1,2982 @@
+{
+ "N001-V001": {
+  "camera": "AN DUONG VUONG - LE HONG PHONG",
+  "duration_s": 585.0,
+  "flow": {
+   "motorcycle": 1668,
+   "car": 187,
+   "truck": 61,
+   "bus": 7
+  }
+ },
+ "N001-V002": {
+  "camera": "AN DUONG VUONG - LE HONG PHONG",
+  "duration_s": 601.0,
+  "flow": {
+   "motorcycle": 1063,
+   "car": 213,
+   "truck": 16,
+   "bus": 3
+  }
+ },
+ "N001-V003": {
+  "camera": "AN DUONG VUONG - LE HONG PHONG",
+  "duration_s": 620.0,
+  "flow": {
+   "motorcycle": 1817,
+   "car": 169,
+   "truck": 18,
+   "bus": 9
+  }
+ },
+ "N002-V001": {
+  "camera": "AN DUONG VUONG - NGUYEN VAN CU",
+  "duration_s": 601.0,
+  "flow": {
+   "motorcycle": 653,
+   "car": 325,
+   "truck": 42,
+   "bus": 3
+  }
+ },
+ "N002-V002": {
+  "camera": "AN DUONG VUONG - NGUYEN VAN CU",
+  "duration_s": 586.0,
+  "flow": {
+   "motorcycle": 1287,
+   "car": 216,
+   "truck": 61,
+   "bus": 3
+  }
+ },
+ "N002-V003": {
+  "camera": "AN DUONG VUONG - NGUYEN VAN CU",
+  "duration_s": 619.0,
+  "flow": {
+   "motorcycle": 1706,
+   "car": 230,
+   "truck": 16,
+   "bus": 9
+  }
+ },
+ "N003-V001": {
+  "camera": "AN DUONG VUONG - TRAN PHU",
+  "duration_s": 619.0,
+  "flow": {
+   "motorcycle": 1797,
+   "car": 247,
+   "truck": 28,
+   "bus": 17
+  }
+ },
+ "N003-V002": {
+  "camera": "AN DUONG VUONG - TRAN PHU",
+  "duration_s": 585.0,
+  "flow": {
+   "motorcycle": 1296,
+   "car": 220,
+   "truck": 63,
+   "bus": 13
+  }
+ },
+ "N003-V003": {
+  "camera": "AN DUONG VUONG - TRAN PHU",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 695,
+   "car": 208,
+   "truck": 19,
+   "bus": 15
+  }
+ },
+ "N004-V001": {
+  "camera": "CachMangThang8 - NguyenDinhChieu",
+  "duration_s": 594.0,
+  "flow": {
+   "motorcycle": 1925,
+   "car": 174,
+   "truck": 12,
+   "bus": 7
+  }
+ },
+ "N004-V002": {
+  "camera": "CachMangThang8 - NguyenDinhChieu",
+  "duration_s": 598.0,
+  "flow": {
+   "motorcycle": 642,
+   "car": 283,
+   "truck": 9,
+   "bus": 5
+  }
+ },
+ "N004-V003": {
+  "camera": "CachMangThang8 - NguyenDinhChieu",
+  "duration_s": 602.0,
+  "flow": {
+   "motorcycle": 1391,
+   "car": 232,
+   "truck": 23,
+   "bus": 7
+  }
+ },
+ "N005-V001": {
+  "camera": "CachMangThangTam - RachBungBinh",
+  "duration_s": 598.0,
+  "flow": {
+   "motorcycle": 1342,
+   "car": 172,
+   "truck": 14,
+   "bus": 5
+  }
+ },
+ "N005-V002": {
+  "camera": "CachMangThangTam - RachBungBinh",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 471,
+   "car": 216,
+   "truck": 26,
+   "bus": 1
+  }
+ },
+ "N005-V003": {
+  "camera": "CachMangThangTam - RachBungBinh",
+  "duration_s": 593.0,
+  "flow": {
+   "motorcycle": 1656,
+   "car": 127,
+   "truck": 14,
+   "bus": 4
+  }
+ },
+ "N006-V001": {
+  "camera": "CMT8 - Vo Van Tan",
+  "duration_s": 598.0,
+  "flow": {
+   "motorcycle": 1271,
+   "car": 241,
+   "truck": 26,
+   "bus": 6
+  }
+ },
+ "N006-V002": {
+  "camera": "CMT8 - Vo Van Tan",
+  "duration_s": 601.0,
+  "flow": {
+   "motorcycle": 183,
+   "car": 269,
+   "truck": 45,
+   "bus": 10
+  }
+ },
+ "N006-V003": {
+  "camera": "CMT8 - Vo Van Tan",
+  "duration_s": 593.0,
+  "flow": {
+   "motorcycle": 1608,
+   "car": 199,
+   "truck": 19,
+   "bus": 9
+  }
+ },
+ "N007-V001": {
+  "camera": "Cong Vien Da cau Calmette",
+  "duration_s": 592.1,
+  "flow": {
+   "motorcycle": 4,
+   "car": 27,
+   "truck": 9,
+   "bus": 1
+  }
+ },
+ "N007-V002": {
+  "camera": "Cong Vien Da cau Calmette",
+  "duration_s": 609.0,
+  "flow": {
+   "motorcycle": 123,
+   "car": 37,
+   "truck": 1,
+   "bus": 0
+  }
+ },
+ "N007-V003": {
+  "camera": "Cong Vien Da cau Calmette",
+  "duration_s": 605.0,
+  "flow": {
+   "motorcycle": 0,
+   "car": 16,
+   "truck": 0,
+   "bus": 0
+  }
+ },
+ "N008-V001": {
+  "camera": "Cao Thang - Vo Van Tan 1",
+  "duration_s": 610.0,
+  "flow": {
+   "motorcycle": 1645,
+   "car": 52,
+   "truck": 2,
+   "bus": 0
+  }
+ },
+ "N008-V002": {
+  "camera": "Cao Thang - Vo Van Tan 1",
+  "duration_s": 592.0,
+  "flow": {
+   "motorcycle": 955,
+   "car": 71,
+   "truck": 34,
+   "bus": 0
+  }
+ },
+ "N008-V003": {
+  "camera": "Cao Thang - Vo Van Tan 1",
+  "duration_s": 605.0,
+  "flow": {
+   "motorcycle": 10,
+   "car": 16,
+   "truck": 44,
+   "bus": 0
+  }
+ },
+ "N009-V001": {
+  "camera": "Cao Thang - Vo Van Tan 2",
+  "duration_s": 592.0,
+  "flow": {
+   "motorcycle": 1250,
+   "car": 62,
+   "truck": 20,
+   "bus": 5
+  }
+ },
+ "N009-V002": {
+  "camera": "Cao Thang - Vo Van Tan 2",
+  "duration_s": 605.0,
+  "flow": {
+   "motorcycle": 84,
+   "car": 215,
+   "truck": 44,
+   "bus": 1
+  }
+ },
+ "N009-V003": {
+  "camera": "Cao Thang - Vo Van Tan 2",
+  "duration_s": 609.0,
+  "flow": {
+   "motorcycle": 1641,
+   "car": 50,
+   "truck": 4,
+   "bus": 3
+  }
+ },
+ "N010-V001": {
+  "camera": "Cong Truong Dan Chu 1",
+  "duration_s": 609.0,
+  "flow": {
+   "motorcycle": 2278,
+   "car": 230,
+   "truck": 19,
+   "bus": 18
+  }
+ },
+ "N010-V002": {
+  "camera": "Cong Truong Dan Chu 1",
+  "duration_s": 593.0,
+  "flow": {
+   "motorcycle": 2017,
+   "car": 282,
+   "truck": 44,
+   "bus": 10
+  }
+ },
+ "N010-V003": {
+  "camera": "Cong Truong Dan Chu 1",
+  "duration_s": 606.0,
+  "flow": {
+   "motorcycle": 1428,
+   "car": 237,
+   "truck": 10,
+   "bus": 17
+  }
+ },
+ "N011-V001": {
+  "camera": "Cong Truong Dan Chu 2",
+  "duration_s": 592.0,
+  "flow": {
+   "motorcycle": 2469,
+   "car": 343,
+   "truck": 47,
+   "bus": 8
+  }
+ },
+ "N011-V002": {
+  "camera": "Cong Truong Dan Chu 2",
+  "duration_s": 609.0,
+  "flow": {
+   "motorcycle": 3032,
+   "car": 279,
+   "truck": 18,
+   "bus": 15
+  }
+ },
+ "N011-V003": {
+  "camera": "Cong Truong Dan Chu 2",
+  "duration_s": 605.0,
+  "flow": {
+   "motorcycle": 888,
+   "car": 313,
+   "truck": 14,
+   "bus": 14
+  }
+ },
+ "N012-V001": {
+  "camera": "CMT8 - BUI THI XUAN",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 873,
+   "car": 235,
+   "truck": 34,
+   "bus": 9
+  }
+ },
+ "N012-V002": {
+  "camera": "CMT8 - BUI THI XUAN",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 18,
+   "car": 431,
+   "truck": 60,
+   "bus": 7
+  }
+ },
+ "N012-V003": {
+  "camera": "CMT8 - BUI THI XUAN",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1251,
+   "car": 188,
+   "truck": 13,
+   "bus": 12
+  }
+ },
+ "N013-V001": {
+  "camera": "Cong truong Me Linh",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1410,
+   "car": 503,
+   "truck": 125,
+   "bus": 28
+  }
+ },
+ "N013-V002": {
+  "camera": "Cong truong Me Linh",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1973,
+   "car": 429,
+   "truck": 39,
+   "bus": 53
+  }
+ },
+ "N013-V003": {
+  "camera": "Cong truong Me Linh",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 212,
+   "car": 323,
+   "truck": 41,
+   "bus": 22
+  }
+ },
+ "N014-V001": {
+  "camera": "CONG QUYNH - BUI VIEN",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 715,
+   "car": 95,
+   "truck": 14,
+   "bus": 0
+  }
+ },
+ "N014-V002": {
+  "camera": "CONG QUYNH - BUI VIEN",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 197,
+   "car": 130,
+   "truck": 14,
+   "bus": 0
+  }
+ },
+ "N014-V003": {
+  "camera": "CONG QUYNH - BUI VIEN",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 1044,
+   "car": 54,
+   "truck": 15,
+   "bus": 1
+  }
+ },
+ "N015-V001": {
+  "camera": "Cong Quynh - Pham Viet Chanh",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 1316,
+   "car": 211,
+   "truck": 29,
+   "bus": 3
+  }
+ },
+ "N015-V002": {
+  "camera": "Cong Quynh - Pham Viet Chanh",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1820,
+   "car": 134,
+   "truck": 5,
+   "bus": 7
+  }
+ },
+ "N015-V003": {
+  "camera": "Cong Quynh - Pham Viet Chanh",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 179,
+   "car": 57,
+   "truck": 99,
+   "bus": 0
+  }
+ },
+ "N016-V001": {
+  "camera": "NTMK - Nguyen Thuong Hien",
+  "duration_s": 596.0,
+  "flow": {
+   "motorcycle": 766,
+   "car": 223,
+   "truck": 20,
+   "bus": 8
+  }
+ },
+ "N016-V002": {
+  "camera": "Ky Dong - Ba Huyen Thanh Quan",
+  "duration_s": 596.0,
+  "flow": {
+   "motorcycle": 332,
+   "car": 94,
+   "truck": 12,
+   "bus": 2
+  }
+ },
+ "N016-V003": {
+  "camera": "DBPhu - Truong Dinh",
+  "duration_s": 596.0,
+  "flow": {
+   "motorcycle": 823,
+   "car": 215,
+   "truck": 13,
+   "bus": 9
+  }
+ },
+ "N016-V004": {
+  "camera": "LE VAN SY - TRAN QUANG DIEU",
+  "duration_s": 596.0,
+  "flow": {
+   "motorcycle": 1156,
+   "car": 146,
+   "truck": 17,
+   "bus": 2
+  }
+ },
+ "N016-V005": {
+  "camera": "NTMK - Ton That Tung",
+  "duration_s": 596.0,
+  "flow": {
+   "motorcycle": 847,
+   "car": 240,
+   "truck": 24,
+   "bus": 8
+  }
+ },
+ "N017-V001": {
+  "camera": "DBPhu - Truong Dinh",
+  "duration_s": 594.0,
+  "flow": {
+   "motorcycle": 1265,
+   "car": 239,
+   "truck": 16,
+   "bus": 11
+  }
+ },
+ "N017-V002": {
+  "camera": "DBPhu - Truong Dinh",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 591,
+   "car": 222,
+   "truck": 14,
+   "bus": 4
+  }
+ },
+ "N017-V003": {
+  "camera": "DBPhu - Truong Dinh",
+  "duration_s": 602.0,
+  "flow": {
+   "motorcycle": 918,
+   "car": 258,
+   "truck": 34,
+   "bus": 7
+  }
+ },
+ "N018-V001": {
+  "camera": "HUYNH TAN PHAT - HOANG QUOC VIET",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1377,
+   "car": 193,
+   "truck": 60,
+   "bus": 7
+  }
+ },
+ "N018-V002": {
+  "camera": "HUYNH TAN PHAT - HOANG QUOC VIET",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 3,
+   "car": 100,
+   "truck": 94,
+   "bus": 18
+  }
+ },
+ "N018-V003": {
+  "camera": "HUYNH TAN PHAT - HOANG QUOC VIET",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1079,
+   "car": 171,
+   "truck": 109,
+   "bus": 6
+  }
+ },
+ "N019-V001": {
+  "camera": "NguyenThiThap - HuynhTanPhat",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1930,
+   "car": 234,
+   "truck": 47,
+   "bus": 5
+  }
+ },
+ "N019-V002": {
+  "camera": "NguyenThiThap - HuynhTanPhat",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 16,
+   "car": 234,
+   "truck": 38,
+   "bus": 2
+  }
+ },
+ "N019-V003": {
+  "camera": "NguyenThiThap - HuynhTanPhat",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1310,
+   "car": 179,
+   "truck": 114,
+   "bus": 5
+  }
+ },
+ "N020-V001": {
+  "camera": "HUYNH TAN PHAT - PHU THUAN",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1013,
+   "car": 233,
+   "truck": 55,
+   "bus": 5
+  }
+ },
+ "N020-V002": {
+  "camera": "HUYNH TAN PHAT - PHU THUAN",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 944,
+   "car": 202,
+   "truck": 109,
+   "bus": 2
+  }
+ },
+ "N020-V003": {
+  "camera": "HUYNH TAN PHAT - PHU THUAN",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 0,
+   "car": 62,
+   "truck": 71,
+   "bus": 4
+  }
+ },
+ "N021-V001": {
+  "camera": "PhamHuuLau - HuynhTanPhat",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 912,
+   "car": 76,
+   "truck": 70,
+   "bus": 5
+  }
+ },
+ "N021-V002": {
+  "camera": "PhamHuuLau - HuynhTanPhat",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 0,
+   "car": 26,
+   "truck": 78,
+   "bus": 3
+  }
+ },
+ "N021-V003": {
+  "camera": "PhamHuuLau - HuynhTanPhat",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1279,
+   "car": 78,
+   "truck": 43,
+   "bus": 4
+  }
+ },
+ "N022-V001": {
+  "camera": "HUYNH TAN PHAT - TRAN TRONG CUNG",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 1057,
+   "car": 121,
+   "truck": 52,
+   "bus": 2
+  }
+ },
+ "N022-V002": {
+  "camera": "HUYNH TAN PHAT - TRAN TRONG CUNG",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1278,
+   "car": 156,
+   "truck": 11,
+   "bus": 8
+  }
+ },
+ "N022-V003": {
+  "camera": "HUYNH TAN PHAT - TRAN TRONG CUNG",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 23,
+   "car": 111,
+   "truck": 37,
+   "bus": 2
+  }
+ },
+ "N023-V001": {
+  "camera": "HAI BA TRUNG - LY CHINH THANG",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1443,
+   "car": 176,
+   "truck": 21,
+   "bus": 2
+  }
+ },
+ "N023-V002": {
+  "camera": "HAI BA TRUNG - LY CHINH THANG",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1029,
+   "car": 124,
+   "truck": 4,
+   "bus": 0
+  }
+ },
+ "N023-V003": {
+  "camera": "HAI BA TRUNG - LY CHINH THANG",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1922,
+   "car": 143,
+   "truck": 3,
+   "bus": 2
+  }
+ },
+ "N024-V001": {
+  "camera": "HAI BA TRUNG - NGUYEN DINH CHIEU",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 940,
+   "car": 156,
+   "truck": 25,
+   "bus": 10
+  }
+ },
+ "N024-V002": {
+  "camera": "HAI BA TRUNG - NGUYEN DINH CHIEU",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 349,
+   "car": 164,
+   "truck": 14,
+   "bus": 11
+  }
+ },
+ "N024-V003": {
+  "camera": "HAI BA TRUNG - NGUYEN DINH CHIEU",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1475,
+   "car": 157,
+   "truck": 12,
+   "bus": 9
+  }
+ },
+ "N025-V001": {
+  "camera": "Hai Ba Trung - Tran Cao Van",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 870,
+   "car": 145,
+   "truck": 12,
+   "bus": 6
+  }
+ },
+ "N025-V002": {
+  "camera": "Hai Ba Trung - Tran Cao Van",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 607,
+   "car": 126,
+   "truck": 17,
+   "bus": 13
+  }
+ },
+ "N025-V003": {
+  "camera": "Hai Ba Trung - Tran Cao Van",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 132,
+   "car": 148,
+   "truck": 20,
+   "bus": 5
+  }
+ },
+ "N026-V001": {
+  "camera": "HAI BA TRUNG - TRAN QUOC TOAN",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 479,
+   "car": 92,
+   "truck": 15,
+   "bus": 0
+  }
+ },
+ "N026-V002": {
+  "camera": "HAI BA TRUNG - TRAN QUOC TOAN",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1389,
+   "car": 109,
+   "truck": 3,
+   "bus": 7
+  }
+ },
+ "N026-V003": {
+  "camera": "HAI BA TRUNG - TRAN QUOC TOAN",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1199,
+   "car": 135,
+   "truck": 23,
+   "bus": 6
+  }
+ },
+ "N027-V001": {
+  "camera": "Hong Bang - Ngo Quyen",
+  "duration_s": 597.0,
+  "flow": {
+   "motorcycle": 715,
+   "car": 196,
+   "truck": 20,
+   "bus": 29
+  }
+ },
+ "N027-V002": {
+  "camera": "Hong Bang - Ngo Quyen",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 624,
+   "car": 237,
+   "truck": 39,
+   "bus": 20
+  }
+ },
+ "N027-V003": {
+  "camera": "Hong Bang - Ngo Quyen",
+  "duration_s": 601.0,
+  "flow": {
+   "motorcycle": 292,
+   "car": 90,
+   "truck": 9,
+   "bus": 18
+  }
+ },
+ "N028-V001": {
+  "camera": "Hong Bang - Ngo Quyen 2",
+  "duration_s": 597.0,
+  "flow": {
+   "motorcycle": 1332,
+   "car": 219,
+   "truck": 11,
+   "bus": 37
+  }
+ },
+ "N028-V002": {
+  "camera": "Hong Bang - Ngo Quyen 2",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1213,
+   "car": 301,
+   "truck": 48,
+   "bus": 28
+  }
+ },
+ "N028-V003": {
+  "camera": "Hong Bang - Ngo Quyen 2",
+  "duration_s": 601.0,
+  "flow": {
+   "motorcycle": 1033,
+   "car": 165,
+   "truck": 5,
+   "bus": 29
+  }
+ },
+ "N029-V001": {
+  "camera": "Hong Bang - Nguyen Thi Nho",
+  "duration_s": 597.0,
+  "flow": {
+   "motorcycle": 609,
+   "car": 195,
+   "truck": 32,
+   "bus": 35
+  }
+ },
+ "N029-V002": {
+  "camera": "Hong Bang - Nguyen Thi Nho",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 417,
+   "car": 183,
+   "truck": 117,
+   "bus": 31
+  }
+ },
+ "N029-V003": {
+  "camera": "Hong Bang - Nguyen Thi Nho",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 639,
+   "car": 142,
+   "truck": 23,
+   "bus": 19
+  }
+ },
+ "N030-V001": {
+  "camera": "Hong Bang - Phu Dong Thien Vuong",
+  "duration_s": 597.0,
+  "flow": {
+   "motorcycle": 520,
+   "car": 154,
+   "truck": 14,
+   "bus": 14
+  }
+ },
+ "N030-V002": {
+  "camera": "Hong Bang - Phu Dong Thien Vuong",
+  "duration_s": 598.8,
+  "flow": {
+   "motorcycle": 321,
+   "car": 209,
+   "truck": 28,
+   "bus": 11
+  }
+ },
+ "N030-V003": {
+  "camera": "Hong Bang - Phu Dong Thien Vuong",
+  "duration_s": 599.9,
+  "flow": {
+   "motorcycle": 151,
+   "car": 70,
+   "truck": 9,
+   "bus": 4
+  }
+ },
+ "N031-V001": {
+  "camera": "Hung Vuong - Nguyen Chi Thanh 1",
+  "duration_s": 597.0,
+  "flow": {
+   "motorcycle": 12,
+   "car": 41,
+   "truck": 14,
+   "bus": 4
+  }
+ },
+ "N031-V002": {
+  "camera": "Hung Vuong - Nguyen Chi Thanh 1",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 17,
+   "car": 69,
+   "truck": 13,
+   "bus": 5
+  }
+ },
+ "N031-V003": {
+  "camera": "Hung Vuong - Nguyen Chi Thanh 1",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 75,
+   "car": 82,
+   "truck": 34,
+   "bus": 4
+  }
+ },
+ "N032-V001": {
+  "camera": "Hung Vuong - Ngo Gia Tu",
+  "duration_s": 597.0,
+  "flow": {
+   "motorcycle": 1363,
+   "car": 216,
+   "truck": 11,
+   "bus": 35
+  }
+ },
+ "N032-V002": {
+  "camera": "Hung Vuong - Ngo Gia Tu",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 1520,
+   "car": 161,
+   "truck": 6,
+   "bus": 31
+  }
+ },
+ "N032-V003": {
+  "camera": "Hung Vuong - Ngo Gia Tu",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1420,
+   "car": 282,
+   "truck": 39,
+   "bus": 25
+  }
+ },
+ "N033-V001": {
+  "camera": "HUYNH TAN PHAT - CAU TAN THUAN 1",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 568,
+   "car": 54,
+   "truck": 50,
+   "bus": 0
+  }
+ },
+ "N033-V002": {
+  "camera": "HUYNH TAN PHAT - CAU TAN THUAN 1",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 206,
+   "car": 93,
+   "truck": 28,
+   "bus": 0
+  }
+ },
+ "N033-V003": {
+  "camera": "HUYNH TAN PHAT - CAU TAN THUAN 1",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 940,
+   "car": 110,
+   "truck": 24,
+   "bus": 0
+  }
+ },
+ "N034-V001": {
+  "camera": "HUNG VUONG - LE HONG PHONG",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 1073,
+   "car": 194,
+   "truck": 14,
+   "bus": 4
+  }
+ },
+ "N034-V002": {
+  "camera": "HUNG VUONG - LE HONG PHONG",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 565,
+   "car": 157,
+   "truck": 23,
+   "bus": 10
+  }
+ },
+ "N034-V003": {
+  "camera": "HUNG VUONG - LE HONG PHONG",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1254,
+   "car": 225,
+   "truck": 58,
+   "bus": 5
+  }
+ },
+ "N035-V001": {
+  "camera": "HAITHUONGLANONG - CHAUVANLIEM",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 180,
+   "car": 173,
+   "truck": 22,
+   "bus": 27
+  }
+ },
+ "N035-V002": {
+  "camera": "HAITHUONGLANONG - CHAUVANLIEM",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1192,
+   "car": 277,
+   "truck": 29,
+   "bus": 35
+  }
+ },
+ "N035-V003": {
+  "camera": "HAITHUONGLANONG - CHAUVANLIEM",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 1321,
+   "car": 259,
+   "truck": 173,
+   "bus": 30
+  }
+ },
+ "N036-V001": {
+  "camera": "HAU GIANG - MINH PHUNG",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1378,
+   "car": 99,
+   "truck": 10,
+   "bus": 8
+  }
+ },
+ "N036-V002": {
+  "camera": "HAU GIANG - MINH PHUNG",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 1235,
+   "car": 111,
+   "truck": 79,
+   "bus": 10
+  }
+ },
+ "N036-V003": {
+  "camera": "HAU GIANG - MINH PHUNG",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 727,
+   "car": 80,
+   "truck": 27,
+   "bus": 1
+  }
+ },
+ "N037-V001": {
+  "camera": "HAU GIANG - NGUYEN VAN LUONG",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1153,
+   "car": 159,
+   "truck": 83,
+   "bus": 11
+  }
+ },
+ "N037-V002": {
+  "camera": "HAU GIANG - NGUYEN VAN LUONG",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1493,
+   "car": 113,
+   "truck": 12,
+   "bus": 11
+  }
+ },
+ "N037-V003": {
+  "camera": "HAU GIANG - NGUYEN VAN LUONG",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 131,
+   "car": 85,
+   "truck": 28,
+   "bus": 7
+  }
+ },
+ "N038-V001": {
+  "camera": "HONG BANG - TA UYEN",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1429,
+   "car": 193,
+   "truck": 18,
+   "bus": 36
+  }
+ },
+ "N038-V002": {
+  "camera": "HONG BANG - TA UYEN",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1127,
+   "car": 214,
+   "truck": 91,
+   "bus": 30
+  }
+ },
+ "N038-V003": {
+  "camera": "HONG BANG - TA UYEN",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 155,
+   "car": 223,
+   "truck": 13,
+   "bus": 35
+  }
+ },
+ "N039-V001": {
+  "camera": "Khanh Hoi - Cau Kenh Te",
+  "duration_s": 605.0,
+  "flow": {
+   "motorcycle": 0,
+   "car": 246,
+   "truck": 57,
+   "bus": 5
+  }
+ },
+ "N039-V002": {
+  "camera": "Khanh Hoi - Cau Kenh Te",
+  "duration_s": 603.0,
+  "flow": {
+   "motorcycle": 1139,
+   "car": 281,
+   "truck": 7,
+   "bus": 8
+  }
+ },
+ "N039-V003": {
+  "camera": "Khanh Hoi - Cau Kenh Te",
+  "duration_s": 603.0,
+  "flow": {
+   "motorcycle": 1374,
+   "car": 272,
+   "truck": 42,
+   "bus": 9
+  }
+ },
+ "N040-V001": {
+  "camera": "Khanh Hoi - Duong so 41",
+  "duration_s": 604.0,
+  "flow": {
+   "motorcycle": 1569,
+   "car": 155,
+   "truck": 49,
+   "bus": 11
+  }
+ },
+ "N040-V002": {
+  "camera": "Khanh Hoi - Duong so 41",
+  "duration_s": 605.0,
+  "flow": {
+   "motorcycle": 204,
+   "car": 186,
+   "truck": 64,
+   "bus": 9
+  }
+ },
+ "N040-V003": {
+  "camera": "Khanh Hoi - Duong so 41",
+  "duration_s": 603.0,
+  "flow": {
+   "motorcycle": 1946,
+   "car": 170,
+   "truck": 7,
+   "bus": 10
+  }
+ },
+ "N041-V001": {
+  "camera": "Khanh Hoi - Vinh Hoi",
+  "duration_s": 603.0,
+  "flow": {
+   "motorcycle": 2324,
+   "car": 256,
+   "truck": 14,
+   "bus": 11
+  }
+ },
+ "N041-V002": {
+  "camera": "Khanh Hoi - Vinh Hoi",
+  "duration_s": 603.0,
+  "flow": {
+   "motorcycle": 1888,
+   "car": 266,
+   "truck": 43,
+   "bus": 9
+  }
+ },
+ "N041-V003": {
+  "camera": "Khanh Hoi - Vinh Hoi",
+  "duration_s": 605.0,
+  "flow": {
+   "motorcycle": 11,
+   "car": 348,
+   "truck": 248,
+   "bus": 1
+  }
+ },
+ "N042-V001": {
+  "camera": "Ky Dong - Ba Huyen Thanh Quan",
+  "duration_s": 604.0,
+  "flow": {
+   "motorcycle": 74,
+   "car": 109,
+   "truck": 1,
+   "bus": 6
+  }
+ },
+ "N042-V002": {
+  "camera": "Ky Dong - Ba Huyen Thanh Quan",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 157,
+   "car": 66,
+   "truck": 9,
+   "bus": 1
+  }
+ },
+ "N043-V001": {
+  "camera": "LCThang - Nguyen Thong",
+  "duration_s": 126.0,
+  "flow": {
+   "motorcycle": 147,
+   "car": 21,
+   "truck": 3,
+   "bus": 0
+  }
+ },
+ "N043-V002": {
+  "camera": "LCThang - Nguyen Thong",
+  "duration_s": 24.0,
+  "flow": {
+   "motorcycle": 41,
+   "car": 3,
+   "truck": 0,
+   "bus": 0
+  }
+ },
+ "N043-V003": {
+  "camera": "LCThang - Nguyen Thong",
+  "duration_s": 21.0,
+  "flow": {
+   "motorcycle": 35,
+   "car": 3,
+   "truck": 2,
+   "bus": 0
+  }
+ },
+ "N043-V004": {
+  "camera": "LCThang - Nguyen Thong",
+  "duration_s": 16.0,
+  "flow": {
+   "motorcycle": 9,
+   "car": 3,
+   "truck": 0,
+   "bus": 0
+  }
+ },
+ "N043-V005": {
+  "camera": "LCThang - Nguyen Thong",
+  "duration_s": 593.0,
+  "flow": {
+   "motorcycle": 1156,
+   "car": 93,
+   "truck": 5,
+   "bus": 2
+  }
+ },
+ "N043-V006": {
+  "camera": "LCThang - Nguyen Thong",
+  "duration_s": 598.0,
+  "flow": {
+   "motorcycle": 1081,
+   "car": 83,
+   "truck": 1,
+   "bus": 2
+  }
+ },
+ "N044-V001": {
+  "camera": "LyChinhThang - TranQuocThao",
+  "duration_s": 598.0,
+  "flow": {
+   "motorcycle": 275,
+   "car": 192,
+   "truck": 16,
+   "bus": 3
+  }
+ },
+ "N044-V002": {
+  "camera": "LyChinhThang - TranQuocThao",
+  "duration_s": 602.0,
+  "flow": {
+   "motorcycle": 911,
+   "car": 188,
+   "truck": 45,
+   "bus": 7
+  }
+ },
+ "N044-V003": {
+  "camera": "LyChinhThang - TranQuocThao",
+  "duration_s": 593.0,
+  "flow": {
+   "motorcycle": 1372,
+   "car": 154,
+   "truck": 12,
+   "bus": 3
+  }
+ },
+ "N045-V001": {
+  "camera": "LCThang - Truong Dinh",
+  "duration_s": 602.0,
+  "flow": {
+   "motorcycle": 822,
+   "car": 156,
+   "truck": 23,
+   "bus": 3
+  }
+ },
+ "N045-V002": {
+  "camera": "LCThang - Truong Dinh",
+  "duration_s": 594.0,
+  "flow": {
+   "motorcycle": 1088,
+   "car": 151,
+   "truck": 11,
+   "bus": 8
+  }
+ },
+ "N045-V003": {
+  "camera": "LCThang - Truong Dinh",
+  "duration_s": 598.0,
+  "flow": {
+   "motorcycle": 445,
+   "car": 154,
+   "truck": 1,
+   "bus": 4
+  }
+ },
+ "N046-V001": {
+  "camera": "LE VAN SY - TRAN QUANG DIEU",
+  "duration_s": 604.0,
+  "flow": {
+   "motorcycle": 688,
+   "car": 133,
+   "truck": 11,
+   "bus": 3
+  }
+ },
+ "N046-V002": {
+  "camera": "LE VAN SY - TRAN QUANG DIEU",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 757,
+   "car": 87,
+   "truck": 12,
+   "bus": 4
+  }
+ },
+ "N047-V001": {
+  "camera": "Le Van Sy - Truong Sa",
+  "duration_s": 592.0,
+  "flow": {
+   "motorcycle": 1245,
+   "car": 181,
+   "truck": 36,
+   "bus": 6
+  }
+ },
+ "N047-V002": {
+  "camera": "Le Van Sy - Truong Sa",
+  "duration_s": 610.0,
+  "flow": {
+   "motorcycle": 1490,
+   "car": 148,
+   "truck": 6,
+   "bus": 5
+  }
+ },
+ "N047-V003": {
+  "camera": "Le Van Sy - Truong Sa",
+  "duration_s": 606.0,
+  "flow": {
+   "motorcycle": 66,
+   "car": 162,
+   "truck": 6,
+   "bus": 4
+  }
+ },
+ "N048-V001": {
+  "camera": "LYTHUONGKIET - NGUYENCHITHANH",
+  "duration_s": 610.0,
+  "flow": {
+   "motorcycle": 785,
+   "car": 225,
+   "truck": 71,
+   "bus": 19
+  }
+ },
+ "N048-V002": {
+  "camera": "LYTHUONGKIET - NGUYENCHITHANH",
+  "duration_s": 606.0,
+  "flow": {
+   "motorcycle": 624,
+   "car": 200,
+   "truck": 13,
+   "bus": 15
+  }
+ },
+ "N048-V003": {
+  "camera": "LYTHUONGKIET - NGUYENCHITHANH",
+  "duration_s": 603.0,
+  "flow": {
+   "motorcycle": 191,
+   "car": 167,
+   "truck": 16,
+   "bus": 5
+  }
+ },
+ "N049-V001": {
+  "camera": "LE DUAN - MAC DINH CHI",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 678,
+   "car": 267,
+   "truck": 21,
+   "bus": 11
+  }
+ },
+ "N049-V002": {
+  "camera": "LE DUAN - MAC DINH CHI",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 761,
+   "car": 284,
+   "truck": 50,
+   "bus": 6
+  }
+ },
+ "N049-V003": {
+  "camera": "LE DUAN - MAC DINH CHI",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 4,
+   "car": 181,
+   "truck": 80,
+   "bus": 9
+  }
+ },
+ "N050-V001": {
+  "camera": "LE DUAN - NGUYEN BINH KHIEM",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 480,
+   "car": 199,
+   "truck": 34,
+   "bus": 4
+  }
+ },
+ "N050-V002": {
+  "camera": "LE DUAN - NGUYEN BINH KHIEM",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 0,
+   "car": 71,
+   "truck": 47,
+   "bus": 0
+  }
+ },
+ "N050-V003": {
+  "camera": "LE DUAN - NGUYEN BINH KHIEM",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1188,
+   "car": 165,
+   "truck": 4,
+   "bus": 3
+  }
+ },
+ "N051-V001": {
+  "camera": "LE DUAN - PHAM NGOC THACH",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 322,
+   "car": 257,
+   "truck": 11,
+   "bus": 15
+  }
+ },
+ "N051-V002": {
+  "camera": "LE DUAN - PHAM NGOC THACH",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 42,
+   "car": 257,
+   "truck": 2,
+   "bus": 10
+  }
+ },
+ "N051-V003": {
+  "camera": "LE DUAN - PHAM NGOC THACH",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 728,
+   "car": 235,
+   "truck": 8,
+   "bus": 6
+  }
+ },
+ "N052-V001": {
+  "camera": "LE HONG PHONG - TRAN PHU",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 911,
+   "car": 216,
+   "truck": 35,
+   "bus": 14
+  }
+ },
+ "N052-V002": {
+  "camera": "LE HONG PHONG - TRAN PHU",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 1239,
+   "car": 179,
+   "truck": 18,
+   "bus": 8
+  }
+ },
+ "N052-V003": {
+  "camera": "LE HONG PHONG - TRAN PHU",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 114,
+   "car": 122,
+   "truck": 19,
+   "bus": 2
+  }
+ },
+ "N053-V001": {
+  "camera": "LE LAI - PHAN CHU TRINH",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 3,
+   "car": 128,
+   "truck": 11,
+   "bus": 2
+  }
+ },
+ "N053-V002": {
+  "camera": "LE LAI - PHAN CHU TRINH",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 331,
+   "car": 346,
+   "truck": 26,
+   "bus": 45
+  }
+ },
+ "N053-V003": {
+  "camera": "LE LAI - PHAN CHU TRINH",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 411,
+   "car": 165,
+   "truck": 22,
+   "bus": 23
+  }
+ },
+ "N054-V001": {
+  "camera": "LE LAI - PHAM HONG THAI",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 376,
+   "car": 173,
+   "truck": 15,
+   "bus": 21
+  }
+ },
+ "N054-V002": {
+  "camera": "LE LAI - PHAM HONG THAI",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 146,
+   "car": 174,
+   "truck": 8,
+   "bus": 8
+  }
+ },
+ "N054-V003": {
+  "camera": "LE LAI - PHAM HONG THAI",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 302,
+   "car": 116,
+   "truck": 4,
+   "bus": 22
+  }
+ },
+ "N055-V001": {
+  "camera": "Le Loi - Pasteur",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 78,
+   "car": 122,
+   "truck": 8,
+   "bus": 10
+  }
+ },
+ "N055-V002": {
+  "camera": "Le Loi - Pasteur",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 486,
+   "car": 131,
+   "truck": 6,
+   "bus": 4
+  }
+ },
+ "N055-V003": {
+  "camera": "Le Loi - Pasteur",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 27,
+   "car": 142,
+   "truck": 7,
+   "bus": 2
+  }
+ },
+ "N056-V001": {
+  "camera": "LE THANH TON - DONG KHOI",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 591,
+   "car": 134,
+   "truck": 17,
+   "bus": 4
+  }
+ },
+ "N056-V002": {
+  "camera": "LE THANH TON - DONG KHOI",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 483,
+   "car": 150,
+   "truck": 26,
+   "bus": 1
+  }
+ },
+ "N056-V003": {
+  "camera": "LE THANH TON - DONG KHOI",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 719,
+   "car": 113,
+   "truck": 11,
+   "bus": 3
+  }
+ },
+ "N057-V001": {
+  "camera": "NguyenDinhChieu - CaoThang",
+  "duration_s": 598.0,
+  "flow": {
+   "motorcycle": 340,
+   "car": 83,
+   "truck": 13,
+   "bus": 1
+  }
+ },
+ "N057-V002": {
+  "camera": "NguyenDinhChieu - CaoThang",
+  "duration_s": 602.0,
+  "flow": {
+   "motorcycle": 657,
+   "car": 115,
+   "truck": 22,
+   "bus": 1
+  }
+ },
+ "N057-V003": {
+  "camera": "NguyenDinhChieu - CaoThang",
+  "duration_s": 593.0,
+  "flow": {
+   "motorcycle": 704,
+   "car": 82,
+   "truck": 7,
+   "bus": 3
+  }
+ },
+ "N058-V001": {
+  "camera": "Nguyen Dinh Chieu - Truong Dinh",
+  "duration_s": 602.0,
+  "flow": {
+   "motorcycle": 579,
+   "car": 195,
+   "truck": 29,
+   "bus": 7
+  }
+ },
+ "N058-V002": {
+  "camera": "Nguyen Dinh Chieu - Truong Dinh",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 560,
+   "car": 194,
+   "truck": 15,
+   "bus": 2
+  }
+ },
+ "N058-V003": {
+  "camera": "Nguyen Dinh Chieu - Truong Dinh",
+  "duration_s": 594.0,
+  "flow": {
+   "motorcycle": 958,
+   "car": 148,
+   "truck": 16,
+   "bus": 9
+  }
+ },
+ "N059-V001": {
+  "camera": "NKKN - Ly Chinh Thang",
+  "duration_s": 610.0,
+  "flow": {
+   "motorcycle": 1252,
+   "car": 482,
+   "truck": 76,
+   "bus": 11
+  }
+ },
+ "N059-V002": {
+  "camera": "NKKN - Ly Chinh Thang",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 247,
+   "car": 582,
+   "truck": 60,
+   "bus": 12
+  }
+ },
+ "N059-V003": {
+  "camera": "NKKN - Ly Chinh Thang",
+  "duration_s": 604.0,
+  "flow": {
+   "motorcycle": 2209,
+   "car": 470,
+   "truck": 32,
+   "bus": 15
+  }
+ },
+ "N060-V001": {
+  "camera": "NguyenThiMinhKhai - CongQuynh",
+  "duration_s": 608.0,
+  "flow": {
+   "motorcycle": 1615,
+   "car": 281,
+   "truck": 58,
+   "bus": 20
+  }
+ },
+ "N061-V001": {
+  "camera": "NKKN - Tran Quoc Toan",
+  "duration_s": 610.0,
+  "flow": {
+   "motorcycle": 669,
+   "car": 360,
+   "truck": 57,
+   "bus": 3
+  }
+ },
+ "N061-V002": {
+  "camera": "NKKN - Tran Quoc Toan",
+  "duration_s": 604.0,
+  "flow": {
+   "motorcycle": 1455,
+   "car": 319,
+   "truck": 28,
+   "bus": 11
+  }
+ },
+ "N061-V003": {
+  "camera": "NKKN - Tran Quoc Toan",
+  "duration_s": 598.0,
+  "flow": {
+   "motorcycle": 286,
+   "car": 418,
+   "truck": 53,
+   "bus": 2
+  }
+ },
+ "N062-V001": {
+  "camera": "NAM KY KHOI NGHIA - VO VAN TAN",
+  "duration_s": 593.0,
+  "flow": {
+   "motorcycle": 292,
+   "car": 171,
+   "truck": 11,
+   "bus": 9
+  }
+ },
+ "N062-V002": {
+  "camera": "NAM KY KHOI NGHIA - VO VAN TAN",
+  "duration_s": 625.0,
+  "flow": {
+   "motorcycle": 55,
+   "car": 196,
+   "truck": 13,
+   "bus": 10
+  }
+ },
+ "N062-V003": {
+  "camera": "NAM KY KHOI NGHIA - VO VAN TAN",
+  "duration_s": 604.0,
+  "flow": {
+   "motorcycle": 302,
+   "car": 116,
+   "truck": 11,
+   "bus": 5
+  }
+ },
+ "N063-V001": {
+  "camera": "NguyenThiMinhKhai - CongQuynh",
+  "duration_s": 570.0,
+  "flow": {
+   "motorcycle": 2020,
+   "car": 192,
+   "truck": 17,
+   "bus": 14
+  }
+ },
+ "N063-V002": {
+  "camera": "NguyenThiMinhKhai - CongQuynh",
+  "duration_s": 601.0,
+  "flow": {
+   "motorcycle": 914,
+   "car": 257,
+   "truck": 19,
+   "bus": 24
+  }
+ },
+ "N064-V001": {
+  "camera": "NTMK - Nguyen Thuong Hien",
+  "duration_s": 604.0,
+  "flow": {
+   "motorcycle": 570,
+   "car": 180,
+   "truck": 23,
+   "bus": 8
+  }
+ },
+ "N064-V002": {
+  "camera": "NTMK - Nguyen Thuong Hien",
+  "duration_s": 601.0,
+  "flow": {
+   "motorcycle": 412,
+   "car": 103,
+   "truck": 19,
+   "bus": 6
+  }
+ },
+ "N065-V001": {
+  "camera": "NTMK - Ton That Tung",
+  "duration_s": 605.0,
+  "flow": {
+   "motorcycle": 433,
+   "car": 246,
+   "truck": 23,
+   "bus": 4
+  }
+ },
+ "N065-V002": {
+  "camera": "NTMK - Ton That Tung",
+  "duration_s": 601.0,
+  "flow": {
+   "motorcycle": 564,
+   "car": 132,
+   "truck": 19,
+   "bus": 7
+  }
+ },
+ "N066-V001": {
+  "camera": "NGUYEN TAT THANH - CAU TAN THUAN1",
+  "duration_s": 604.0,
+  "flow": {
+   "motorcycle": 439,
+   "car": 49,
+   "truck": 20,
+   "bus": 1
+  }
+ },
+ "N066-V002": {
+  "camera": "NGUYEN TAT THANH - CAU TAN THUAN1",
+  "duration_s": 601.0,
+  "flow": {
+   "motorcycle": 420,
+   "car": 43,
+   "truck": 4,
+   "bus": 0
+  }
+ },
+ "N066-V003": {
+  "camera": "NGUYEN TAT THANH - CAU TAN THUAN1",
+  "duration_s": 597.0,
+  "flow": {
+   "motorcycle": 961,
+   "car": 84,
+   "truck": 6,
+   "bus": 1
+  }
+ },
+ "N067-V001": {
+  "camera": "Nguyen Tat Thanh - Ton Dan",
+  "duration_s": 596.8,
+  "flow": {
+   "motorcycle": 961,
+   "car": 305,
+   "truck": 9,
+   "bus": 7
+  }
+ },
+ "N067-V002": {
+  "camera": "Nguyen Tat Thanh - Ton Dan",
+  "duration_s": 604.0,
+  "flow": {
+   "motorcycle": 686,
+   "car": 244,
+   "truck": 80,
+   "bus": 7
+  }
+ },
+ "N067-V003": {
+  "camera": "Nguyen Tat Thanh - Ton Dan",
+  "duration_s": 601.0,
+  "flow": {
+   "motorcycle": 330,
+   "car": 242,
+   "truck": 10,
+   "bus": 7
+  }
+ },
+ "N068-V001": {
+  "camera": "NAM KY KHOI NGHIA - HAM NGHI",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 782,
+   "car": 138,
+   "truck": 12,
+   "bus": 52
+  }
+ },
+ "N068-V002": {
+  "camera": "NAM KY KHOI NGHIA - HAM NGHI",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 62,
+   "car": 224,
+   "truck": 12,
+   "bus": 41
+  }
+ },
+ "N068-V003": {
+  "camera": "NAM KY KHOI NGHIA - HAM NGHI",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 638,
+   "car": 168,
+   "truck": 17,
+   "bus": 49
+  }
+ },
+ "N069-V001": {
+  "camera": "Nam Ky Khoi Nghia - Ly Tu Trong",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 1065,
+   "car": 121,
+   "truck": 8,
+   "bus": 9
+  }
+ },
+ "N069-V002": {
+  "camera": "Nam Ky Khoi Nghia - Ly Tu Trong",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 292,
+   "car": 250,
+   "truck": 4,
+   "bus": 10
+  }
+ },
+ "N069-V003": {
+  "camera": "Nam Ky Khoi Nghia - Ly Tu Trong",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 515,
+   "car": 155,
+   "truck": 20,
+   "bus": 7
+  }
+ },
+ "N070-V001": {
+  "camera": "NKKN - NGUYEN DU",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1067,
+   "car": 160,
+   "truck": 17,
+   "bus": 5
+  }
+ },
+ "N070-V002": {
+  "camera": "NKKN - NGUYEN DU",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 51,
+   "car": 134,
+   "truck": 7,
+   "bus": 6
+  }
+ },
+ "N070-V003": {
+  "camera": "NKKN - NGUYEN DU",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 466,
+   "car": 186,
+   "truck": 19,
+   "bus": 8
+  }
+ },
+ "N071-V001": {
+  "camera": "NHCanh - NBKhiem - CCTV4.3",
+  "duration_s": 605.0,
+  "flow": {
+   "motorcycle": 252,
+   "car": 547,
+   "truck": 25,
+   "bus": 12
+  }
+ },
+ "N071-V002": {
+  "camera": "NHCanh - NBKhiem - CCTV4.3",
+  "duration_s": 592.0,
+  "flow": {
+   "motorcycle": 992,
+   "car": 495,
+   "truck": 55,
+   "bus": 14
+  }
+ },
+ "N071-V003": {
+  "camera": "NHCanh - NBKhiem - CCTV4.3",
+  "duration_s": 609.0,
+  "flow": {
+   "motorcycle": 1767,
+   "car": 616,
+   "truck": 14,
+   "bus": 11
+  }
+ },
+ "N072-V001": {
+  "camera": "Nguyen Chi Thanh - Nguyen Kim",
+  "duration_s": 598.0,
+  "flow": {
+   "motorcycle": 1508,
+   "car": 121,
+   "truck": 7,
+   "bus": 1
+  }
+ },
+ "N072-V002": {
+  "camera": "Nguyen Chi Thanh - Nguyen Kim",
+  "duration_s": 608.0,
+  "flow": {
+   "motorcycle": 1415,
+   "car": 143,
+   "truck": 32,
+   "bus": 9
+  }
+ },
+ "N072-V003": {
+  "camera": "Nguyen Chi Thanh - Nguyen Kim",
+  "duration_s": 604.0,
+  "flow": {
+   "motorcycle": 777,
+   "car": 97,
+   "truck": 13,
+   "bus": 1
+  }
+ },
+ "N073-V001": {
+  "camera": "NGUYEN CHI THANH - NGO QUYEN",
+  "duration_s": 598.0,
+  "flow": {
+   "motorcycle": 1258,
+   "car": 117,
+   "truck": 8,
+   "bus": 5
+  }
+ },
+ "N073-V002": {
+  "camera": "NGUYEN CHI THANH - NGO QUYEN",
+  "duration_s": 608.0,
+  "flow": {
+   "motorcycle": 1206,
+   "car": 121,
+   "truck": 28,
+   "bus": 10
+  }
+ },
+ "N073-V003": {
+  "camera": "NGUYEN CHI THANH - NGO QUYEN",
+  "duration_s": 605.0,
+  "flow": {
+   "motorcycle": 600,
+   "car": 89,
+   "truck": 8,
+   "bus": 1
+  }
+ },
+ "N074-V001": {
+  "camera": "NGUYEN TRAI - TRAN PHU",
+  "duration_s": 611.0,
+  "flow": {
+   "motorcycle": 1551,
+   "car": 172,
+   "truck": 37,
+   "bus": 11
+  }
+ },
+ "N074-V002": {
+  "camera": "NGUYEN TRAI - TRAN PHU",
+  "duration_s": 604.0,
+  "flow": {
+   "motorcycle": 302,
+   "car": 134,
+   "truck": 14,
+   "bus": 5
+  }
+ },
+ "N074-V003": {
+  "camera": "NGUYEN TRAI - TRAN PHU",
+  "duration_s": 606.0,
+  "flow": {
+   "motorcycle": 1993,
+   "car": 123,
+   "truck": 12,
+   "bus": 4
+  }
+ },
+ "N075-V001": {
+  "camera": "Nga 6 Cong Hoa 2",
+  "duration_s": 603.0,
+  "flow": {
+   "motorcycle": 1583,
+   "car": 272,
+   "truck": 18,
+   "bus": 14
+  }
+ },
+ "N075-V002": {
+  "camera": "Nga 6 Cong Hoa 2",
+  "duration_s": 603.0,
+  "flow": {
+   "motorcycle": 1251,
+   "car": 427,
+   "truck": 69,
+   "bus": 17
+  }
+ },
+ "N075-V003": {
+  "camera": "Nga 6 Cong Hoa 2",
+  "duration_s": 604.0,
+  "flow": {
+   "motorcycle": 373,
+   "car": 364,
+   "truck": 78,
+   "bus": 5
+  }
+ },
+ "N076-V001": {
+  "camera": "Nut giao Nga sau Cong Hoa 1",
+  "duration_s": 606.0,
+  "flow": {
+   "motorcycle": 2485,
+   "car": 464,
+   "truck": 19,
+   "bus": 33
+  }
+ },
+ "N076-V002": {
+  "camera": "Nut giao Nga sau Cong Hoa 1",
+  "duration_s": 610.0,
+  "flow": {
+   "motorcycle": 2081,
+   "car": 555,
+   "truck": 96,
+   "bus": 50
+  }
+ },
+ "N076-V003": {
+  "camera": "Nut giao Nga sau Cong Hoa 1",
+  "duration_s": 604.0,
+  "flow": {
+   "motorcycle": 786,
+   "car": 434,
+   "truck": 16,
+   "bus": 36
+  }
+ },
+ "N077-V001": {
+  "camera": "Nut giao Nga6 NguyenTriPhuong 1",
+  "duration_s": 606.0,
+  "flow": {
+   "motorcycle": 2188,
+   "car": 256,
+   "truck": 8,
+   "bus": 15
+  }
+ },
+ "N077-V002": {
+  "camera": "Nut giao Nga6 NguyenTriPhuong 1",
+  "duration_s": 603.0,
+  "flow": {
+   "motorcycle": 1664,
+   "car": 191,
+   "truck": 8,
+   "bus": 15
+  }
+ },
+ "N077-V003": {
+  "camera": "Nut giao Nga6 NguyenTriPhuong 1",
+  "duration_s": 610.0,
+  "flow": {
+   "motorcycle": 1831,
+   "car": 289,
+   "truck": 60,
+   "bus": 12
+  }
+ },
+ "N078-V001": {
+  "camera": "Nga 6 Nguyen Tri Phuong 2",
+  "duration_s": 606.0,
+  "flow": {
+   "motorcycle": 2247,
+   "car": 344,
+   "truck": 18,
+   "bus": 14
+  }
+ },
+ "N078-V002": {
+  "camera": "Nga 6 Nguyen Tri Phuong 2",
+  "duration_s": 611.0,
+  "flow": {
+   "motorcycle": 1855,
+   "car": 397,
+   "truck": 82,
+   "bus": 20
+  }
+ },
+ "N078-V003": {
+  "camera": "Nga 6 Nguyen Tri Phuong 2",
+  "duration_s": 604.0,
+  "flow": {
+   "motorcycle": 1544,
+   "car": 266,
+   "truck": 14,
+   "bus": 15
+  }
+ },
+ "N079-V001": {
+  "camera": "NguyenLuongBang - HoangQuocViet",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 488,
+   "car": 140,
+   "truck": 46,
+   "bus": 4
+  }
+ },
+ "N079-V002": {
+  "camera": "NguyenLuongBang - HoangQuocViet",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1088,
+   "car": 229,
+   "truck": 24,
+   "bus": 3
+  }
+ },
+ "N079-V003": {
+  "camera": "NguyenLuongBang - HoangQuocViet",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 13,
+   "car": 232,
+   "truck": 68,
+   "bus": 2
+  }
+ },
+ "N080-V001": {
+  "camera": "NGUYEN CHI THANH - THUAN KIEU",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 557,
+   "car": 141,
+   "truck": 10,
+   "bus": 14
+  }
+ },
+ "N080-V002": {
+  "camera": "NGUYEN CHI THANH - THUAN KIEU",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 409,
+   "car": 97,
+   "truck": 13,
+   "bus": 8
+  }
+ },
+ "N080-V003": {
+  "camera": "NGUYEN CHI THANH - THUAN KIEU",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1038,
+   "car": 176,
+   "truck": 41,
+   "bus": 22
+  }
+ },
+ "N081-V001": {
+  "camera": "Nguyen Cong Tru - Cau Calmett 2",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1213,
+   "car": 143,
+   "truck": 13,
+   "bus": 3
+  }
+ },
+ "N081-V002": {
+  "camera": "Nguyen Cong Tru - Cau Calmett 2",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 1650,
+   "car": 131,
+   "truck": 1,
+   "bus": 5
+  }
+ },
+ "N081-V003": {
+  "camera": "Nguyen Cong Tru - Cau Calmett 2",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 5,
+   "car": 19,
+   "truck": 8,
+   "bus": 2
+  }
+ },
+ "N082-V001": {
+  "camera": "NGUYEN DU - CONG XA PARIS",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 18,
+   "car": 84,
+   "truck": 6,
+   "bus": 3
+  }
+ },
+ "N082-V002": {
+  "camera": "NGUYEN DU - CONG XA PARIS",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 162,
+   "car": 97,
+   "truck": 5,
+   "bus": 2
+  }
+ },
+ "N082-V003": {
+  "camera": "NGUYEN DU - CONG XA PARIS",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 145,
+   "car": 147,
+   "truck": 6,
+   "bus": 9
+  }
+ },
+ "N083-V001": {
+  "camera": "Nguyen Huu Canh - Ton Duc Thang",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 722,
+   "car": 468,
+   "truck": 9,
+   "bus": 9
+  }
+ },
+ "N083-V002": {
+  "camera": "Nguyen Huu Canh - Ton Duc Thang",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 2,
+   "car": 297,
+   "truck": 9,
+   "bus": 0
+  }
+ },
+ "N083-V003": {
+  "camera": "Nguyen Huu Canh - Ton Duc Thang",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 587,
+   "car": 433,
+   "truck": 41,
+   "bus": 15
+  }
+ },
+ "N084-V001": {
+  "camera": "NGUYEN THAI HOC - PHAM NGU LAO",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 1218,
+   "car": 266,
+   "truck": 43,
+   "bus": 36
+  }
+ },
+ "N084-V002": {
+  "camera": "NGUYEN THAI HOC - PHAM NGU LAO",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 9,
+   "car": 270,
+   "truck": 32,
+   "bus": 31
+  }
+ },
+ "N084-V003": {
+  "camera": "NGUYEN THAI HOC - PHAM NGU LAO",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 1433,
+   "car": 207,
+   "truck": 14,
+   "bus": 45
+  }
+ },
+ "N085-V001": {
+  "camera": "NgThiMinhKhai - NgBinhKhiem",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1013,
+   "car": 179,
+   "truck": 22,
+   "bus": 12
+  }
+ },
+ "N085-V002": {
+  "camera": "NgThiMinhKhai - NgBinhKhiem",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 390,
+   "car": 359,
+   "truck": 32,
+   "bus": 3
+  }
+ },
+ "N085-V003": {
+  "camera": "NgThiMinhKhai - NgBinhKhiem",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1052,
+   "car": 251,
+   "truck": 28,
+   "bus": 10
+  }
+ },
+ "N086-V001": {
+  "camera": "NguyenThiMinhKhai - PhamNgocThach",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 492,
+   "car": 132,
+   "truck": 32,
+   "bus": 7
+  }
+ },
+ "N086-V002": {
+  "camera": "NguyenThiMinhKhai - PhamNgocThach",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 434,
+   "car": 112,
+   "truck": 24,
+   "bus": 7
+  }
+ },
+ "N086-V003": {
+  "camera": "NguyenThiMinhKhai - PhamNgocThach",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 3,
+   "car": 149,
+   "truck": 31,
+   "bus": 4
+  }
+ },
+ "N087-V001": {
+  "camera": "NguyenThiMinhKhai - TruongDinh",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 953,
+   "car": 340,
+   "truck": 44,
+   "bus": 9
+  }
+ },
+ "N087-V002": {
+  "camera": "NguyenThiMinhKhai - TruongDinh",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 180,
+   "car": 320,
+   "truck": 11,
+   "bus": 12
+  }
+ },
+ "N087-V003": {
+  "camera": "NguyenThiMinhKhai - TruongDinh",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1034,
+   "car": 226,
+   "truck": 12,
+   "bus": 17
+  }
+ },
+ "N088-V001": {
+  "camera": "NgThiMinhKhai - DinhTienHoang 1",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1620,
+   "car": 273,
+   "truck": 35,
+   "bus": 13
+  }
+ },
+ "N088-V002": {
+  "camera": "NgThiMinhKhai - DinhTienHoang 1",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1465,
+   "car": 197,
+   "truck": 10,
+   "bus": 16
+  }
+ },
+ "N088-V003": {
+  "camera": "NgThiMinhKhai - DinhTienHoang 1",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 152,
+   "car": 251,
+   "truck": 17,
+   "bus": 4
+  }
+ },
+ "N089-V001": {
+  "camera": "NgThiMinhKhai - DinhTienHoang2",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1068,
+   "car": 220,
+   "truck": 25,
+   "bus": 9
+  }
+ },
+ "N089-V002": {
+  "camera": "NgThiMinhKhai - DinhTienHoang2",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 161,
+   "car": 225,
+   "truck": 12,
+   "bus": 4
+  }
+ },
+ "N089-V003": {
+  "camera": "NgThiMinhKhai - DinhTienHoang2",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1143,
+   "car": 178,
+   "truck": 13,
+   "bus": 9
+  }
+ },
+ "N090-V001": {
+  "camera": "NGUYEN THI NGHIA - LE LAI",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1082,
+   "car": 256,
+   "truck": 22,
+   "bus": 30
+  }
+ },
+ "N090-V002": {
+  "camera": "NGUYEN THI NGHIA - LE LAI",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 9,
+   "car": 311,
+   "truck": 14,
+   "bus": 55
+  }
+ },
+ "N090-V003": {
+  "camera": "NGUYEN THI NGHIA - LE LAI",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 1358,
+   "car": 208,
+   "truck": 12,
+   "bus": 32
+  }
+ },
+ "N091-V001": {
+  "camera": "NGUYEN THI THAP - TAN MY",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 81,
+   "car": 97,
+   "truck": 9,
+   "bus": 3
+  }
+ },
+ "N091-V002": {
+  "camera": "NGUYEN THI THAP - TAN MY",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1014,
+   "car": 100,
+   "truck": 51,
+   "bus": 2
+  }
+ },
+ "N091-V003": {
+  "camera": "NGUYEN THI THAP - TAN MY",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 20,
+   "car": 125,
+   "truck": 46,
+   "bus": 1
+  }
+ },
+ "N092-V001": {
+  "camera": "Nguyen Trai - Cong Quynh 1",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 2016,
+   "car": 243,
+   "truck": 32,
+   "bus": 23
+  }
+ },
+ "N092-V002": {
+  "camera": "Nguyen Trai - Cong Quynh 1",
+  "duration_s": 605.0,
+  "flow": {
+   "motorcycle": 245,
+   "car": 278,
+   "truck": 57,
+   "bus": 8
+  }
+ },
+ "N092-V003": {
+  "camera": "Nguyen Trai - Cong Quynh 1",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 2184,
+   "car": 182,
+   "truck": 10,
+   "bus": 21
+  }
+ },
+ "N093-V001": {
+  "camera": "Nguyen Trai - Cong Quynh 2",
+  "duration_s": 605.0,
+  "flow": {
+   "motorcycle": 490,
+   "car": 199,
+   "truck": 30,
+   "bus": 8
+  }
+ },
+ "N093-V002": {
+  "camera": "Nguyen Trai - Cong Quynh 2",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1461,
+   "car": 291,
+   "truck": 33,
+   "bus": 9
+  }
+ },
+ "N093-V003": {
+  "camera": "Nguyen Trai - Cong Quynh 2",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 1843,
+   "car": 218,
+   "truck": 22,
+   "bus": 9
+  }
+ },
+ "N094-V001": {
+  "camera": "NGUYEN TRAI - NGUYEN CU TRINH",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 765,
+   "car": 123,
+   "truck": 25,
+   "bus": 5
+  }
+ },
+ "N094-V002": {
+  "camera": "NGUYEN TRAI - NGUYEN CU TRINH",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 29,
+   "car": 140,
+   "truck": 26,
+   "bus": 4
+  }
+ },
+ "N094-V003": {
+  "camera": "NGUYEN TRAI - NGUYEN CU TRINH",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 899,
+   "car": 131,
+   "truck": 6,
+   "bus": 6
+  }
+ },
+ "N095-V001": {
+  "camera": "NGUYEN_VAN_CU_NGUYEN_TRAI",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 862,
+   "car": 179,
+   "truck": 55,
+   "bus": 2
+  }
+ },
+ "N095-V002": {
+  "camera": "NGUYEN_VAN_CU_NGUYEN_TRAI",
+  "duration_s": 601.0,
+  "flow": {
+   "motorcycle": 898,
+   "car": 155,
+   "truck": 19,
+   "bus": 7
+  }
+ },
+ "N095-V003": {
+  "camera": "NGUYEN_VAN_CU_NGUYEN_TRAI",
+  "duration_s": 606.0,
+  "flow": {
+   "motorcycle": 157,
+   "car": 162,
+   "truck": 91,
+   "bus": 6
+  }
+ },
+ "N096-V001": {
+  "camera": "Nguyen Van Cu - Tran Hung Dao_2",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 2247,
+   "car": 322,
+   "truck": 13,
+   "bus": 10
+  }
+ },
+ "N096-V002": {
+  "camera": "Nguyen Van Cu - Tran Hung Dao_2",
+  "duration_s": 606.0,
+  "flow": {
+   "motorcycle": 373,
+   "car": 376,
+   "truck": 66,
+   "bus": 18
+  }
+ },
+ "N096-V003": {
+  "camera": "Nguyen Van Cu - Tran Hung Dao_2",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 1802,
+   "car": 370,
+   "truck": 73,
+   "bus": 8
+  }
+ },
+ "N097-V001": {
+  "camera": "NGUYEN VAN CU - TRAN HUNG DAO 3",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 1511,
+   "car": 346,
+   "truck": 102,
+   "bus": 13
+  }
+ },
+ "N097-V002": {
+  "camera": "NGUYEN VAN CU - TRAN HUNG DAO 3",
+  "duration_s": 605.0,
+  "flow": {
+   "motorcycle": 54,
+   "car": 297,
+   "truck": 90,
+   "bus": 16
+  }
+ },
+ "N097-V003": {
+  "camera": "NGUYEN VAN CU - TRAN HUNG DAO 3",
+  "duration_s": 601.0,
+  "flow": {
+   "motorcycle": 1574,
+   "car": 332,
+   "truck": 29,
+   "bus": 13
+  }
+ },
+ "N098-V001": {
+  "camera": "NGUYEN VAN LINH - CAU TAN THUAN 2",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 966,
+   "car": 323,
+   "truck": 69,
+   "bus": 21
+  }
+ },
+ "N098-V002": {
+  "camera": "NGUYEN VAN LINH - CAU TAN THUAN 2",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 34,
+   "car": 229,
+   "truck": 51,
+   "bus": 28
+  }
+ },
+ "N098-V003": {
+  "camera": "NGUYEN VAN LINH - CAU TAN THUAN 2",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 724,
+   "car": 322,
+   "truck": 154,
+   "bus": 12
+  }
+ },
+ "N099-V001": {
+  "camera": "NGUYEN VAN THU - TRAN DOAN KHANH",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 68,
+   "car": 20,
+   "truck": 3,
+   "bus": 0
+  }
+ },
+ "N099-V002": {
+  "camera": "NGUYEN VAN THU - TRAN DOAN KHANH",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 4,
+   "car": 13,
+   "truck": 23,
+   "bus": 0
+  }
+ },
+ "N099-V003": {
+  "camera": "NGUYEN VAN THU - TRAN DOAN KHANH",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 355,
+   "car": 8,
+   "truck": 5,
+   "bus": 0
+  }
+ },
+ "N100-V001": {
+  "camera": "NBK - NGUYEN DINH CHIEU",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 1386,
+   "car": 184,
+   "truck": 9,
+   "bus": 5
+  }
+ },
+ "N100-V002": {
+  "camera": "NBK - NGUYEN DINH CHIEU",
+  "duration_s": 600.0,
+  "flow": {
+   "motorcycle": 58,
+   "car": 234,
+   "truck": 30,
+   "bus": 7
+  }
+ },
+ "N100-V003": {
+  "camera": "NBK - NGUYEN DINH CHIEU",
+  "duration_s": 599.0,
+  "flow": {
+   "motorcycle": 568,
+   "car": 171,
+   "truck": 28,
+   "bus": 4
+  }
+ }
+}

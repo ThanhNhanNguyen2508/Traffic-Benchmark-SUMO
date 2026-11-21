@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<polyconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/polyconvertConfiguration.xsd">
+
+    <input>
+        <net-file value="../map/osm.net.xml.gz"/>
+        <osm-files value="../map/osm_bbox.osm.xml.gz"/>
+        <osm.keep-full-type value="true"/>
+        <osm.merge-relations value="1"/>
+        <type-file value="${SUMO_HOME}\data\typemap\osmPolyconvert.typ.xml"/>
+    </input>
+
+    <output>
+        <output-file value="../map/osm.poly.xml.gz"/>
+    </output>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</polyconvertConfiguration>

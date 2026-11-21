@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bus_bus" vClass="bus"/>
+<!-- begin="0.0" end="3600.0" -->
+    <vehicle id="bus_0" depart="87.08" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="DN_B_DN_J4 THT_J4_J3 TT_J3_J5 BH_J5_J0 LTK_J0_B_LTK_N"/>
+    </vehicle>
+    <vehicle id="bus_1" depart="273.27" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="DS2_B_DS2_J1 LTK_J1_J2 THT_J2_J3 TT_J3_B_TT_S"/>
+    </vehicle>
+    <vehicle id="bus_2" depart="376.88" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="H319A_B_H319A_J0 LTK_J0_J1 LTK_J1_J2 LG_J2_B_LG"/>
+    </vehicle>
+    <vehicle id="bus_3" depart="378.01" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="BH_B_BH_E_J5 BH_J5_J0 LTK_J0_J1 LTK_J1_J2 LG_J2_B_LG"/>
+    </vehicle>
+    <vehicle id="bus_4" depart="426.69" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LG_B_LG_J2 LTK_J2_J1 LTK_J1_J0 BH_J0_J5 TT_J5_J3 THT_J3_J2 LG_J2_B_LG"/>
+    </vehicle>
+    <vehicle id="bus_5" depart="456.55" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="DS2_B_DS2_J1 LTK_J1_J0 LTK_J0_B_LTK_N"/>
+    </vehicle>
+    <vehicle id="bus_6" depart="708.57" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="BH_B_BH_E_J5 TT_J5_J3 THT_J3_J2 LTK_J2_J1 LTK_J1_J0 BH_J0_J5 BH_J5_B_BH_E"/>
+    </vehicle>
+    <vehicle id="bus_7" depart="715.18" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="DN_B_DN_J4 THT_J4_J3 THT_J3_J2 LTK_J2_J1 LTK_J1_J0 BH_J0_J5 TT_J5_J3 THT_J3_J4 DN_J4_B_DN"/>
+    </vehicle>
+    <vehicle id="bus_8" depart="804.82" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="BH_B_BH_E_J5 BH_J5_J0 LTK_J0_J1 DS2_J1_B_DS2"/>
+    </vehicle>
+    <vehicle id="bus_9" depart="902.88" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LTK_B_LTK_S_J2 LTK_J2_J1 LTK_J1_J0 LTK_J0_B_LTK_N"/>
+    </vehicle>
+    <vehicle id="bus_10" depart="952.02" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LTK_B_LTK_S_J2 LTK_J2_J1 DS2_J1_B_DS2"/>
+    </vehicle>
+    <vehicle id="bus_11" depart="1038.19" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="BH_B_BH_E_J5 BH_J5_J0 LTK_J0_J1 LTK_J1_J2 LG_J2_B_LG"/>
+    </vehicle>
+    <vehicle id="bus_12" depart="1154.45" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LTK_B_LTK_N_J0 LTK_J0_J1 LTK_J1_J2 LG_J2_B_LG"/>
+    </vehicle>
+    <vehicle id="bus_13" depart="1364.56" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LG_B_LG_J2 LTK_J2_J1 LTK_J1_J0 BH_J0_J5 TT_J5_J3 THT_J3_J2 LG_J2_B_LG"/>
+    </vehicle>
+    <vehicle id="bus_14" depart="1433.22" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LTK_B_LTK_S_J2 THT_J2_J3 TT_J3_B_TT_S"/>
+    </vehicle>
+    <vehicle id="bus_15" depart="1571.92" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="THT_B_THT_E_J4 THT_J4_J3 TT_J3_J5 BH_J5_J0 LTK_J0_B_LTK_N"/>
+    </vehicle>
+    <vehicle id="bus_16" depart="1655.49" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LTK_B_LTK_S_J2 THT_J2_J3 THT_J3_J4 DN_J4_B_DN"/>
+    </vehicle>
+    <vehicle id="bus_17" depart="1683.95" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="DN_B_DN_J4 THT_J4_J3 TT_J3_J5 BH_J5_B_BH_E"/>
+    </vehicle>
+    <vehicle id="bus_18" depart="1733.26" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="TT_B_TT_S_J3 TT_J3_J5 BH_J5_J0 LTK_J0_B_LTK_N"/>
+    </vehicle>
+    <vehicle id="bus_19" depart="1878.72" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="H319A_B_H319A_J0 BH_J0_J5 BH_J5_B_BH_E"/>
+    </vehicle>
+    <vehicle id="bus_20" depart="1918.71" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="BH_B_BH_E_J5 BH_J5_J0 LTK_J0_B_LTK_N"/>
+    </vehicle>
+    <vehicle id="bus_21" depart="2157.29" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LTK_B_LTK_N_J0 LTK_J0_J1 DS2_J1_B_DS2"/>
+    </vehicle>
+    <vehicle id="bus_22" depart="2202.71" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LTK_B_LTK_N_J0 LTK_J0_J1 DS2_J1_B_DS2"/>
+    </vehicle>
+    <vehicle id="bus_23" depart="2307.52" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LTK_B_LTK_N_J0 LTK_J0_J1 LTK_J1_J2 LG_J2_B_LG"/>
+    </vehicle>
+    <vehicle id="bus_24" depart="2316.11" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LTK_B_LTK_N_J0 LTK_J0_J1 LTK_J1_J2 LTK_J2_B_LTK_S"/>
+    </vehicle>
+    <vehicle id="bus_25" depart="2477.60" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="THT_B_THT_E_J4 THT_J4_J3 TT_J3_J5 BH_J5_J0 LTK_J0_B_LTK_N"/>
+    </vehicle>
+    <vehicle id="bus_26" depart="2652.96" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LG_B_LG_J2 THT_J2_J3 THT_J3_J4 DN_J4_B_DN"/>
+    </vehicle>
+    <vehicle id="bus_27" depart="2654.13" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LTK_B_LTK_N_J0 LTK_J0_J1 LTK_J1_J2 LTK_J2_B_LTK_S"/>
+    </vehicle>
+    <vehicle id="bus_28" depart="2741.37" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LG_B_LG_J2 LTK_J2_J1 LTK_J1_J0 LTK_J0_B_LTK_N"/>
+    </vehicle>
+    <vehicle id="bus_29" depart="2884.33" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LTK_B_LTK_N_J0 BH_J0_J5 TT_J5_J3 TT_J3_B_TT_S"/>
+    </vehicle>
+    <vehicle id="bus_30" depart="2896.93" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LTK_B_LTK_S_J2 LTK_J2_J1 LTK_J1_J0 LTK_J0_B_LTK_N"/>
+    </vehicle>
+    <vehicle id="bus_31" depart="2970.42" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LTK_B_LTK_N_J0 LTK_J0_J1 LTK_J1_J2 LG_J2_B_LG"/>
+    </vehicle>
+    <vehicle id="bus_32" depart="2990.93" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="DS2_B_DS2_J1 LTK_J1_J2 THT_J2_J3 TT_J3_B_TT_S"/>
+    </vehicle>
+    <vehicle id="bus_33" depart="2995.96" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="DN_B_DN_J4 THT_J4_J3 TT_J3_J5 BH_J5_B_BH_E"/>
+    </vehicle>
+    <vehicle id="bus_34" depart="3088.95" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="THT_B_THT_E_J4 THT_J4_J3 THT_J3_J2 LTK_J2_J1 LTK_J1_J0 BH_J0_J5 TT_J5_J3 THT_J3_J4 THT_J4_B_THT_E"/>
+    </vehicle>
+    <vehicle id="bus_35" depart="3116.63" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LTK_B_LTK_S_J2 LTK_J2_J1 LTK_J1_J0 BH_J0_J5 BH_J5_B_BH_E"/>
+    </vehicle>
+    <vehicle id="bus_36" depart="3397.80" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="DS2_B_DS2_J1 LTK_J1_J2 THT_J2_J3 THT_J3_J4 THT_J4_B_THT_E"/>
+    </vehicle>
+    <vehicle id="bus_37" depart="3492.92" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="LTK_B_LTK_N_J0 BH_J0_J5 TT_J5_J3 THT_J3_J2 LTK_J2_J1 LTK_J1_J0 LTK_J0_B_LTK_N"/>
+    </vehicle>
+    <vehicle id="bus_38" depart="3498.70" type="bus_bus" departLane="best" departSpeed="max">
+        <route edges="DN_B_DN_J4 THT_J4_J3 TT_J3_J5 BH_J5_J0 LTK_J0_B_LTK_N"/>
+    </vehicle>
+</routes>

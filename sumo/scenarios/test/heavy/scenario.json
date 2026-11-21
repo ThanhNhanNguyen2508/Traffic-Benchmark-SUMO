@@ -1,0 +1,17 @@
+{
+ "split": "test",
+ "setting": "heavy",
+ "seed": 3003,
+ "scale": 0.25,
+ "source_window": {
+  "session": "2026-10-29_0850-1250",
+  "from": "10:50",
+  "to": "11:50"
+ },
+ "vehicles": {
+  "motorcycle": 5592,
+  "passenger": 762,
+  "truck": 280,
+  "bus": 57
+ }
+}

@@ -1,0 +1,31 @@
+{
+  "status": "EXPERIMENTAL_NOT_LOCKED",
+  "scope": "S0-G. Only rows with source_model == yolo12x_bmd45 and class == motorcycle can be removed. YOLO11x car/truck/bus rows are never touched.",
+  "order": "1) decide on the FULL floor-0.08 motorcycle set per image (threshold-independent geometry); 2) drop REMOVED rows; 3) apply conf >= t filter for images/counts. removed(t) = removed rows with conf >= t.",
+  "size_cap_source": "hybrid/summary_report.json motorcycle_flags.bmd45_cap_w_h (data-derived, S0-E finding); a size cap alone NEVER removes a box",
+  "size_cap_tol_px": 0.15,
+  "evidence": {
+    "min_inside_conf": 0.10,
+    "inside_ioa": 0.9,
+    "inside_distinct_max_iou": 0.5,
+    "vehicle_inside_ioa": 0.8,
+    "overlap_vehicle_iou": 0.5,
+    "covered_by_vehicle_ioa": 0.7
+  },
+  "auto_suppress_rules": {
+    "R1_ENCLOSES_CLUSTER": {"min_inside_distinct": 3, "min_area_ratio_to_inside_median": 10.0,
+      "meaning": "box fully encloses >=3 distinct motorcycle boxes (pairwise IoU<0.5, IoA>=0.9) and is >=10x larger than their median area: aggregate box, not one vehicle"},
+    "R2_CAPPED_ENCLOSES_VEHICLE_AND_MOTOS": {"requires_size_cap_both": true, "min_inside_distinct": 2, "min_area_ratio_to_inside_median": 10.0, "requires_contains_yolo_vehicle": true,
+      "meaning": "box at the BMD45 size cap in both dimensions, encloses a YOLO11x vehicle and >=2 distinct motorcycle boxes, >=10x their median area"}
+  },
+  "flag_only_rules": {
+    "SIZE_CAP_W": "width within tol of the BMD45 max width",
+    "SIZE_CAP_H": "height within tol of the BMD45 max height",
+    "CONTAINS_YOLO_VEHICLE": "a YOLO11x car/truck/bus box lies inside (IoA>=vehicle_inside_ioa)",
+    "OVERLAP_YOLO_VEHICLE": "IoU>=overlap_vehicle_iou or covered (IoA)>=covered_by_vehicle_ioa by a YOLO11x vehicle box",
+    "ENCLOSES_SOME_NOT_SUPPRESSED": ">=2 distinct motorcycle boxes inside but no auto-suppress rule fired",
+    "NESTED_SAME_SIZE": "IoU>=0.5 with a same-size (within 1px) motorcycle box of higher confidence"
+  },
+  "never_remove": ["low confidence alone", "size cap alone", "area alone", "overlap with YOLO11x vehicle alone", "any global NMS"],
+  "sensitivity_grid": {"min_inside_conf": [0.08, 0.10, 0.20], "min_area_ratio": [6.0, 10.0, 15.0], "min_inside_distinct": [2, 3, 4]}
+}

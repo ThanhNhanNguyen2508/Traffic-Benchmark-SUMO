@@ -1,0 +1,17 @@
+{
+ "split": "val",
+ "setting": "medium",
+ "seed": 2002,
+ "scale": 0.25,
+ "source_window": {
+  "session": "2026-11-07_1306-1706",
+  "from": "13:06",
+  "to": "14:06"
+ },
+ "vehicles": {
+  "motorcycle": 4042,
+  "passenger": 779,
+  "truck": 186,
+  "bus": 46
+ }
+}

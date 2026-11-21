@@ -1,0 +1,17 @@
+{
+ "split": "train",
+ "setting": "light",
+ "seed": 1001,
+ "scale": 0.25,
+ "source_window": {
+  "session": "2026-11-12_0530-0700",
+  "from": "05:30",
+  "to": "06:30"
+ },
+ "vehicles": {
+  "motorcycle": 3189,
+  "passenger": 534,
+  "truck": 115,
+  "bus": 41
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "light": {
+  "session": "2026-11-12_0530-0700",
+  "from": "05:30",
+  "to": "06:30",
+  "cameras": {
+   "Cam_Ly_Thuong_Kiet_Bac_Hai": {
+    "motorcycle": 7578,
+    "car": 808,
+    "truck": 130,
+    "bus": 69,
+    "total": 8586,
+    "covered_min": 59.9
+   },
+   "Cam_Thanh_Thai_To_Hien_Thanh": {
+    "motorcycle": 7007,
+    "car": 875,
+    "truck": 105,
+    "bus": 55,
+    "total": 8042,
+    "covered_min": 59.9
+   },
+   "Cam_To_Hien_Thanh_1": {
+    "motorcycle": 2196,
+    "car": 325,
+    "truck": 80,
+    "bus": 52,
+    "total": 2652,
+    "covered_min": 59.8
+   },
+   "Cam_To_Hien_Thanh_2": {
+    "motorcycle": 4182,
+    "car": 1017,
+    "truck": 283,
+    "bus": 87,
+    "total": 5569,
+    "covered_min": 59.8
+   }
+  },
+  "mean_of_cameras": {
+   "motorcycle": 5241,
+   "car": 756,
+   "truck": 150,
+   "bus": 66,
+   "total": 6212
+  }
+ },
+ "medium": {
+  "session": "2026-11-07_1306-1706",
+  "from": "13:06",
+  "to": "14:06",
+  "cameras": {
+   "Cam_Ly_Thuong_Kiet_Bac_Hai": {
+    "motorcycle": 8813,
+    "car": 1192,
+    "truck": 341,
+    "bus": 92,
+    "total": 10438,
+    "covered_min": 59.8
+   },
+   "Cam_Thanh_Thai_To_Hien_Thanh": {
+    "motorcycle": 9614,
+    "car": 1618,
+    "truck": 303,
+    "bus": 49,
+    "total": 11584,
+    "covered_min": 59.8
+   },
+   "Cam_To_Hien_Thanh_1": {
+    "motorcycle": 3540,
+    "car": 653,
+    "truck": 135,
+    "bus": 61,
+    "total": 4389,
+    "covered_min": 59.8
+   },
+   "Cam_To_Hien_Thanh_2": {
+    "motorcycle": 4570,
+    "car": 1195,
+    "truck": 372,
+    "bus": 74,
+    "total": 6210,
+    "covered_min": 59.8
+   }
+  },
+  "mean_of_cameras": {
+   "motorcycle": 6634,
+   "car": 1164,
+   "truck": 288,
+   "bus": 69,
+   "total": 8155
+  }
+ },
+ "heavy": {
+  "session": "2026-10-29_0850-1250",
+  "from": "10:50",
+  "to": "11:50",
+  "cameras": {
+   "Cam_Ly_Thuong_Kiet_Bac_Hai": {
+    "motorcycle": 11261,
+    "car": 1253,
+    "truck": 515,
+    "bus": 93,
+    "total": 13121,
+    "covered_min": 59.9
+   },
+   "Cam_Thanh_Thai_To_Hien_Thanh": {
+    "motorcycle": 11314,
+    "car": 1425,
+    "truck": 402,
+    "bus": 69,
+    "total": 13211,
+    "covered_min": 60.0
+   },
+   "Cam_To_Hien_Thanh_1": {
+    "motorcycle": 5872,
+    "car": 705,
+    "truck": 245,
+    "bus": 71,
+    "total": 6893,
+    "covered_min": 60.0
+   },
+   "Cam_To_Hien_Thanh_2": {
+    "motorcycle": 8402,
+    "car": 1294,
+    "truck": 599,
+    "bus": 109,
+    "total": 10403,
+    "covered_min": 59.9
+   }
+  },
+  "mean_of_cameras": {
+   "motorcycle": 9212,
+   "car": 1169,
+   "truck": 440,
+   "bus": 86,
+   "total": 10907
+  }
+ }
+}

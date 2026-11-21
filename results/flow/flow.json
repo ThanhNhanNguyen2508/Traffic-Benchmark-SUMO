@@ -1,0 +1,3570 @@
+{
+ "2026-10-29_0850-1250|Cam_Ly_Thuong_Kiet_Bac_Hai": {
+  "start": "2026-10-29T08:50:08.255000+07:00",
+  "bins": [
+   {
+    "from": "08:50",
+    "to": "09:50",
+    "covered_min": 58.4,
+    "images": 293,
+    "veh_per_h": {
+     "motorcycle": 11565,
+     "car": 1271,
+     "truck": 343,
+     "bus": 72
+    },
+    "total": 13252
+   },
+   {
+    "from": "09:50",
+    "to": "10:50",
+    "covered_min": 57.9,
+    "images": 288,
+    "veh_per_h": {
+     "motorcycle": 11265,
+     "car": 1212,
+     "truck": 423,
+     "bus": 72
+    },
+    "total": 12972
+   },
+   {
+    "from": "10:50",
+    "to": "11:50",
+    "covered_min": 60.1,
+    "images": 298,
+    "veh_per_h": {
+     "motorcycle": 11262,
+     "car": 1254,
+     "truck": 513,
+     "bus": 93
+    },
+    "total": 13122
+   },
+   {
+    "from": "11:50",
+    "to": "12:50",
+    "covered_min": 59.9,
+    "images": 297,
+    "veh_per_h": {
+     "motorcycle": 10925,
+     "car": 1122,
+     "truck": 401,
+     "bus": 81
+    },
+    "total": 12530
+   }
+  ],
+  "series_10min": [
+   {
+    "from": "08:50",
+    "to": "09:00",
+    "covered_min": 9.9,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 10970,
+     "car": 1441,
+     "truck": 189,
+     "bus": 47
+    },
+    "total": 12647
+   },
+   {
+    "from": "09:00",
+    "to": "09:10",
+    "covered_min": 8.6,
+    "images": 45,
+    "veh_per_h": {
+     "motorcycle": 10703,
+     "car": 1218,
+     "truck": 251,
+     "bus": 74
+    },
+    "total": 12247
+   },
+   {
+    "from": "09:10",
+    "to": "09:20",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 10669,
+     "car": 1188,
+     "truck": 287,
+     "bus": 76
+    },
+    "total": 12219
+   },
+   {
+    "from": "09:20",
+    "to": "09:30",
+    "covered_min": 10.2,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 12038,
+     "car": 1297,
+     "truck": 426,
+     "bus": 102
+    },
+    "total": 13863
+   },
+   {
+    "from": "09:30",
+    "to": "09:40",
+    "covered_min": 10.0,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 12684,
+     "car": 1195,
+     "truck": 389,
+     "bus": 55
+    },
+    "total": 14324
+   },
+   {
+    "from": "09:40",
+    "to": "09:50",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 12181,
+     "car": 1280,
+     "truck": 502,
+     "bus": 80
+    },
+    "total": 14042
+   },
+   {
+    "from": "09:50",
+    "to": "10:00",
+    "covered_min": 9.8,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 11027,
+     "car": 1228,
+     "truck": 317,
+     "bus": 75
+    },
+    "total": 12647
+   },
+   {
+    "from": "10:00",
+    "to": "10:10",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 11313,
+     "car": 1257,
+     "truck": 434,
+     "bus": 65
+    },
+    "total": 13068
+   },
+   {
+    "from": "10:10",
+    "to": "10:20",
+    "covered_min": 8.1,
+    "images": 42,
+    "veh_per_h": {
+     "motorcycle": 11520,
+     "car": 1287,
+     "truck": 369,
+     "bus": 79
+    },
+    "total": 13254
+   },
+   {
+    "from": "10:20",
+    "to": "10:30",
+    "covered_min": 9.9,
+    "images": 48,
+    "veh_per_h": {
+     "motorcycle": 10666,
+     "car": 1013,
+     "truck": 406,
+     "bus": 70
+    },
+    "total": 12156
+   },
+   {
+    "from": "10:30",
+    "to": "10:40",
+    "covered_min": 9.8,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 11748,
+     "car": 1285,
+     "truck": 484,
+     "bus": 84
+    },
+    "total": 13602
+   },
+   {
+    "from": "10:40",
+    "to": "10:50",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 11361,
+     "car": 1217,
+     "truck": 516,
+     "bus": 59
+    },
+    "total": 13153
+   },
+   {
+    "from": "10:50",
+    "to": "11:00",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 10956,
+     "car": 1016,
+     "truck": 507,
+     "bus": 128
+    },
+    "total": 12607
+   },
+   {
+    "from": "11:00",
+    "to": "11:10",
+    "covered_min": 9.8,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 11426,
+     "car": 1361,
+     "truck": 584,
+     "bus": 96
+    },
+    "total": 13467
+   },
+   {
+    "from": "11:10",
+    "to": "11:20",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 11325,
+     "car": 1387,
+     "truck": 536,
+     "bus": 94
+    },
+    "total": 13342
+   },
+   {
+    "from": "11:20",
+    "to": "11:30",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 11927,
+     "car": 1266,
+     "truck": 489,
+     "bus": 79
+    },
+    "total": 13761
+   },
+   {
+    "from": "11:30",
+    "to": "11:40",
+    "covered_min": 10.0,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 10888,
+     "car": 1004,
+     "truck": 400,
+     "bus": 58
+    },
+    "total": 12350
+   },
+   {
+    "from": "11:40",
+    "to": "11:50",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 11060,
+     "car": 1493,
+     "truck": 563,
+     "bus": 101
+    },
+    "total": 13216
+   },
+   {
+    "from": "11:50",
+    "to": "12:00",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 11065,
+     "car": 1178,
+     "truck": 436,
+     "bus": 76
+    },
+    "total": 12755
+   },
+   {
+    "from": "12:00",
+    "to": "12:10",
+    "covered_min": 10.0,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 10749,
+     "car": 1009,
+     "truck": 317,
+     "bus": 45
+    },
+    "total": 12119
+   },
+   {
+    "from": "12:10",
+    "to": "12:20",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 11045,
+     "car": 1166,
+     "truck": 349,
+     "bus": 89
+    },
+    "total": 12650
+   },
+   {
+    "from": "12:20",
+    "to": "12:30",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 11112,
+     "car": 1172,
+     "truck": 460,
+     "bus": 105
+    },
+    "total": 12849
+   },
+   {
+    "from": "12:30",
+    "to": "12:40",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 10393,
+     "car": 1048,
+     "truck": 429,
+     "bus": 122
+    },
+    "total": 11993
+   },
+   {
+    "from": "12:40",
+    "to": "12:50",
+    "covered_min": 10.0,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 11185,
+     "car": 1160,
+     "truck": 412,
+     "bus": 51
+    },
+    "total": 12808
+   }
+  ]
+ },
+ "2026-10-29_0850-1250|Cam_Thanh_Thai_To_Hien_Thanh": {
+  "start": "2026-10-29T08:50:08.254000+07:00",
+  "bins": [
+   {
+    "from": "08:50",
+    "to": "09:50",
+    "covered_min": 58.5,
+    "images": 294,
+    "veh_per_h": {
+     "motorcycle": 11064,
+     "car": 1377,
+     "truck": 239,
+     "bus": 54
+    },
+    "total": 12734
+   },
+   {
+    "from": "09:50",
+    "to": "10:50",
+    "covered_min": 57.4,
+    "images": 286,
+    "veh_per_h": {
+     "motorcycle": 10802,
+     "car": 1353,
+     "truck": 374,
+     "bus": 60
+    },
+    "total": 12589
+   },
+   {
+    "from": "10:50",
+    "to": "11:50",
+    "covered_min": 59.8,
+    "images": 296,
+    "veh_per_h": {
+     "motorcycle": 11315,
+     "car": 1425,
+     "truck": 401,
+     "bus": 69
+    },
+    "total": 13211
+   },
+   {
+    "from": "11:50",
+    "to": "12:49",
+    "covered_min": 60.0,
+    "images": 297,
+    "veh_per_h": {
+     "motorcycle": 11392,
+     "car": 1388,
+     "truck": 318,
+     "bus": 50
+    },
+    "total": 13148
+   }
+  ],
+  "series_10min": [
+   {
+    "from": "08:50",
+    "to": "09:00",
+    "covered_min": 9.8,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 10735,
+     "car": 1152,
+     "truck": 172,
+     "bus": 53
+    },
+    "total": 12112
+   },
+   {
+    "from": "09:00",
+    "to": "09:10",
+    "covered_min": 8.7,
+    "images": 46,
+    "veh_per_h": {
+     "motorcycle": 11016,
+     "car": 1124,
+     "truck": 251,
+     "bus": 58
+    },
+    "total": 12449
+   },
+   {
+    "from": "09:10",
+    "to": "09:20",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 10545,
+     "car": 1430,
+     "truck": 219,
+     "bus": 49
+    },
+    "total": 12243
+   },
+   {
+    "from": "09:20",
+    "to": "09:30",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 12133,
+     "car": 1469,
+     "truck": 235,
+     "bus": 63
+    },
+    "total": 13900
+   },
+   {
+    "from": "09:30",
+    "to": "09:40",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 10811,
+     "car": 1582,
+     "truck": 256,
+     "bus": 68
+    },
+    "total": 12717
+   },
+   {
+    "from": "09:40",
+    "to": "09:50",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 11113,
+     "car": 1469,
+     "truck": 300,
+     "bus": 33
+    },
+    "total": 12915
+   },
+   {
+    "from": "09:50",
+    "to": "10:00",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 10123,
+     "car": 1316,
+     "truck": 419,
+     "bus": 50
+    },
+    "total": 11907
+   },
+   {
+    "from": "10:00",
+    "to": "10:10",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 11152,
+     "car": 1453,
+     "truck": 347,
+     "bus": 95
+    },
+    "total": 13048
+   },
+   {
+    "from": "10:10",
+    "to": "10:20",
+    "covered_min": 7.8,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 10120,
+     "car": 1259,
+     "truck": 429,
+     "bus": 38
+    },
+    "total": 11846
+   },
+   {
+    "from": "10:20",
+    "to": "10:30",
+    "covered_min": 9.5,
+    "images": 48,
+    "veh_per_h": {
+     "motorcycle": 10797,
+     "car": 1338,
+     "truck": 396,
+     "bus": 69
+    },
+    "total": 12600
+   },
+   {
+    "from": "10:30",
+    "to": "10:40",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 10589,
+     "car": 1346,
+     "truck": 337,
+     "bus": 44
+    },
+    "total": 12316
+   },
+   {
+    "from": "10:40",
+    "to": "10:50",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 11865,
+     "car": 1382,
+     "truck": 333,
+     "bus": 57
+    },
+    "total": 13637
+   },
+   {
+    "from": "10:50",
+    "to": "11:00",
+    "covered_min": 9.8,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 10716,
+     "car": 1266,
+     "truck": 408,
+     "bus": 22
+    },
+    "total": 12413
+   },
+   {
+    "from": "11:00",
+    "to": "11:10",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 11350,
+     "car": 1491,
+     "truck": 386,
+     "bus": 98
+    },
+    "total": 13326
+   },
+   {
+    "from": "11:10",
+    "to": "11:20",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 11534,
+     "car": 1488,
+     "truck": 494,
+     "bus": 80
+    },
+    "total": 13596
+   },
+   {
+    "from": "11:20",
+    "to": "11:30",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 11912,
+     "car": 1455,
+     "truck": 406,
+     "bus": 54
+    },
+    "total": 13826
+   },
+   {
+    "from": "11:30",
+    "to": "11:40",
+    "covered_min": 10.0,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 11367,
+     "car": 1420,
+     "truck": 327,
+     "bus": 84
+    },
+    "total": 13198
+   },
+   {
+    "from": "11:40",
+    "to": "11:50",
+    "covered_min": 9.8,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 10995,
+     "car": 1429,
+     "truck": 388,
+     "bus": 73
+    },
+    "total": 12885
+   },
+   {
+    "from": "11:50",
+    "to": "12:00",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 11905,
+     "car": 1568,
+     "truck": 284,
+     "bus": 58
+    },
+    "total": 13816
+   },
+   {
+    "from": "12:00",
+    "to": "12:10",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 11510,
+     "car": 1514,
+     "truck": 423,
+     "bus": 64
+    },
+    "total": 13511
+   },
+   {
+    "from": "12:10",
+    "to": "12:20",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 10667,
+     "car": 1436,
+     "truck": 303,
+     "bus": 56
+    },
+    "total": 12462
+   },
+   {
+    "from": "12:20",
+    "to": "12:30",
+    "covered_min": 9.8,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 11508,
+     "car": 1374,
+     "truck": 355,
+     "bus": 31
+    },
+    "total": 13268
+   },
+   {
+    "from": "12:30",
+    "to": "12:40",
+    "covered_min": 10.2,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 11770,
+     "car": 1143,
+     "truck": 259,
+     "bus": 46
+    },
+    "total": 13218
+   },
+   {
+    "from": "12:40",
+    "to": "12:49",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 10968,
+     "car": 1292,
+     "truck": 284,
+     "bus": 45
+    },
+    "total": 12589
+   }
+  ]
+ },
+ "2026-10-29_0850-1250|Cam_To_Hien_Thanh_1": {
+  "start": "2026-10-29T08:50:08.261000+07:00",
+  "bins": [
+   {
+    "from": "08:50",
+    "to": "09:50",
+    "covered_min": 59.3,
+    "images": 295,
+    "veh_per_h": {
+     "motorcycle": 5023,
+     "car": 645,
+     "truck": 157,
+     "bus": 44
+    },
+    "total": 5869
+   },
+   {
+    "from": "09:50",
+    "to": "10:50",
+    "covered_min": 57.8,
+    "images": 287,
+    "veh_per_h": {
+     "motorcycle": 5803,
+     "car": 589,
+     "truck": 229,
+     "bus": 69
+    },
+    "total": 6689
+   },
+   {
+    "from": "10:50",
+    "to": "11:50",
+    "covered_min": 60.0,
+    "images": 297,
+    "veh_per_h": {
+     "motorcycle": 5872,
+     "car": 705,
+     "truck": 245,
+     "bus": 71
+    },
+    "total": 6893
+   },
+   {
+    "from": "11:50",
+    "to": "12:49",
+    "covered_min": 60.0,
+    "images": 298,
+    "veh_per_h": {
+     "motorcycle": 6496,
+     "car": 601,
+     "truck": 189,
+     "bus": 49
+    },
+    "total": 7336
+   }
+  ],
+  "series_10min": [
+   {
+    "from": "08:50",
+    "to": "09:00",
+    "covered_min": 10.0,
+    "images": 51,
+    "veh_per_h": {
+     "motorcycle": 3567,
+     "car": 543,
+     "truck": 158,
+     "bus": 64
+    },
+    "total": 4332
+   },
+   {
+    "from": "09:00",
+    "to": "09:10",
+    "covered_min": 9.1,
+    "images": 45,
+    "veh_per_h": {
+     "motorcycle": 4521,
+     "car": 680,
+     "truck": 106,
+     "bus": 45
+    },
+    "total": 5353
+   },
+   {
+    "from": "09:10",
+    "to": "09:20",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 4330,
+     "car": 589,
+     "truck": 113,
+     "bus": 32
+    },
+    "total": 5064
+   },
+   {
+    "from": "09:20",
+    "to": "09:30",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 4902,
+     "car": 683,
+     "truck": 178,
+     "bus": 58
+    },
+    "total": 5820
+   },
+   {
+    "from": "09:30",
+    "to": "09:40",
+    "covered_min": 10.2,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 6550,
+     "car": 682,
+     "truck": 183,
+     "bus": 40
+    },
+    "total": 7454
+   },
+   {
+    "from": "09:40",
+    "to": "09:50",
+    "covered_min": 10.0,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 6199,
+     "car": 699,
+     "truck": 199,
+     "bus": 24
+    },
+    "total": 7122
+   },
+   {
+    "from": "09:50",
+    "to": "10:00",
+    "covered_min": 9.8,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 6543,
+     "car": 650,
+     "truck": 227,
+     "bus": 73
+    },
+    "total": 7493
+   },
+   {
+    "from": "10:00",
+    "to": "10:10",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 5111,
+     "car": 739,
+     "truck": 245,
+     "bus": 75
+    },
+    "total": 6169
+   },
+   {
+    "from": "10:10",
+    "to": "10:20",
+    "covered_min": 8.1,
+    "images": 41,
+    "veh_per_h": {
+     "motorcycle": 4651,
+     "car": 621,
+     "truck": 257,
+     "bus": 44
+    },
+    "total": 5573
+   },
+   {
+    "from": "10:20",
+    "to": "10:30",
+    "covered_min": 9.8,
+    "images": 48,
+    "veh_per_h": {
+     "motorcycle": 5923,
+     "car": 502,
+     "truck": 203,
+     "bus": 95
+    },
+    "total": 6723
+   },
+   {
+    "from": "10:30",
+    "to": "10:40",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 6200,
+     "car": 467,
+     "truck": 199,
+     "bus": 58
+    },
+    "total": 6924
+   },
+   {
+    "from": "10:40",
+    "to": "10:50",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 6192,
+     "car": 557,
+     "truck": 249,
+     "bus": 62
+    },
+    "total": 7060
+   },
+   {
+    "from": "10:50",
+    "to": "11:00",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 6247,
+     "car": 680,
+     "truck": 276,
+     "bus": 41
+    },
+    "total": 7243
+   },
+   {
+    "from": "11:00",
+    "to": "11:10",
+    "covered_min": 10.0,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 4970,
+     "car": 771,
+     "truck": 337,
+     "bus": 78
+    },
+    "total": 6157
+   },
+   {
+    "from": "11:10",
+    "to": "11:20",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 5550,
+     "car": 797,
+     "truck": 255,
+     "bus": 115
+    },
+    "total": 6716
+   },
+   {
+    "from": "11:20",
+    "to": "11:30",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 5569,
+     "car": 674,
+     "truck": 287,
+     "bus": 77
+    },
+    "total": 6606
+   },
+   {
+    "from": "11:30",
+    "to": "11:40",
+    "covered_min": 10.0,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 6412,
+     "car": 673,
+     "truck": 180,
+     "bus": 81
+    },
+    "total": 7345
+   },
+   {
+    "from": "11:40",
+    "to": "11:50",
+    "covered_min": 9.8,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 6491,
+     "car": 638,
+     "truck": 134,
+     "bus": 34
+    },
+    "total": 7296
+   },
+   {
+    "from": "11:50",
+    "to": "12:00",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 7177,
+     "car": 553,
+     "truck": 210,
+     "bus": 62
+    },
+    "total": 8003
+   },
+   {
+    "from": "12:00",
+    "to": "12:10",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 6306,
+     "car": 590,
+     "truck": 237,
+     "bus": 32
+    },
+    "total": 7165
+   },
+   {
+    "from": "12:10",
+    "to": "12:20",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 6538,
+     "car": 623,
+     "truck": 152,
+     "bus": 31
+    },
+    "total": 7344
+   },
+   {
+    "from": "12:20",
+    "to": "12:30",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 6667,
+     "car": 689,
+     "truck": 157,
+     "bus": 67
+    },
+    "total": 7580
+   },
+   {
+    "from": "12:30",
+    "to": "12:40",
+    "covered_min": 10.0,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 6764,
+     "car": 502,
+     "truck": 134,
+     "bus": 33
+    },
+    "total": 7434
+   },
+   {
+    "from": "12:40",
+    "to": "12:49",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 5500,
+     "car": 652,
+     "truck": 248,
+     "bus": 67
+    },
+    "total": 6466
+   }
+  ]
+ },
+ "2026-10-29_0850-1250|Cam_To_Hien_Thanh_2": {
+  "start": "2026-10-29T08:50:08.260000+07:00",
+  "bins": [
+   {
+    "from": "08:50",
+    "to": "09:50",
+    "covered_min": 58.5,
+    "images": 292,
+    "veh_per_h": {
+     "motorcycle": 7538,
+     "car": 1316,
+     "truck": 501,
+     "bus": 77
+    },
+    "total": 9432
+   },
+   {
+    "from": "09:50",
+    "to": "10:50",
+    "covered_min": 58.1,
+    "images": 288,
+    "veh_per_h": {
+     "motorcycle": 7883,
+     "car": 1264,
+     "truck": 583,
+     "bus": 119
+    },
+    "total": 9849
+   },
+   {
+    "from": "10:50",
+    "to": "11:50",
+    "covered_min": 59.9,
+    "images": 297,
+    "veh_per_h": {
+     "motorcycle": 8410,
+     "car": 1298,
+     "truck": 596,
+     "bus": 109
+    },
+    "total": 10413
+   },
+   {
+    "from": "11:50",
+    "to": "12:49",
+    "covered_min": 59.9,
+    "images": 297,
+    "veh_per_h": {
+     "motorcycle": 8678,
+     "car": 1239,
+     "truck": 479,
+     "bus": 108
+    },
+    "total": 10504
+   }
+  ],
+  "series_10min": [
+   {
+    "from": "08:50",
+    "to": "09:00",
+    "covered_min": 9.9,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 6849,
+     "car": 1379,
+     "truck": 355,
+     "bus": 64
+    },
+    "total": 8647
+   },
+   {
+    "from": "09:00",
+    "to": "09:10",
+    "covered_min": 8.5,
+    "images": 44,
+    "veh_per_h": {
+     "motorcycle": 6467,
+     "car": 1310,
+     "truck": 507,
+     "bus": 106
+    },
+    "total": 8390
+   },
+   {
+    "from": "09:10",
+    "to": "09:20",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 6782,
+     "car": 1432,
+     "truck": 386,
+     "bus": 69
+    },
+    "total": 8670
+   },
+   {
+    "from": "09:20",
+    "to": "09:30",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 7595,
+     "car": 1316,
+     "truck": 531,
+     "bus": 75
+    },
+    "total": 9517
+   },
+   {
+    "from": "09:30",
+    "to": "09:40",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 8575,
+     "car": 1311,
+     "truck": 516,
+     "bus": 49
+    },
+    "total": 10451
+   },
+   {
+    "from": "09:40",
+    "to": "09:50",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 8795,
+     "car": 1151,
+     "truck": 708,
+     "bus": 101
+    },
+    "total": 10755
+   },
+   {
+    "from": "09:50",
+    "to": "10:00",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 8762,
+     "car": 1325,
+     "truck": 631,
+     "bus": 127
+    },
+    "total": 10846
+   },
+   {
+    "from": "10:00",
+    "to": "10:10",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 8151,
+     "car": 1291,
+     "truck": 594,
+     "bus": 113
+    },
+    "total": 10148
+   },
+   {
+    "from": "10:10",
+    "to": "10:20",
+    "covered_min": 8.1,
+    "images": 42,
+    "veh_per_h": {
+     "motorcycle": 6789,
+     "car": 1322,
+     "truck": 555,
+     "bus": 64
+    },
+    "total": 8730
+   },
+   {
+    "from": "10:20",
+    "to": "10:30",
+    "covered_min": 9.9,
+    "images": 48,
+    "veh_per_h": {
+     "motorcycle": 7549,
+     "car": 1219,
+     "truck": 566,
+     "bus": 118
+    },
+    "total": 9453
+   },
+   {
+    "from": "10:30",
+    "to": "10:40",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 7867,
+     "car": 1369,
+     "truck": 549,
+     "bus": 121
+    },
+    "total": 9906
+   },
+   {
+    "from": "10:40",
+    "to": "10:50",
+    "covered_min": 10.2,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 7959,
+     "car": 1072,
+     "truck": 594,
+     "bus": 161
+    },
+    "total": 9787
+   },
+   {
+    "from": "10:50",
+    "to": "11:00",
+    "covered_min": 9.8,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 9081,
+     "car": 1322,
+     "truck": 547,
+     "bus": 113
+    },
+    "total": 11062
+   },
+   {
+    "from": "11:00",
+    "to": "11:10",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 8204,
+     "car": 1325,
+     "truck": 649,
+     "bus": 133
+    },
+    "total": 10312
+   },
+   {
+    "from": "11:10",
+    "to": "11:20",
+    "covered_min": 10.0,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 7899,
+     "car": 1213,
+     "truck": 482,
+     "bus": 115
+    },
+    "total": 9709
+   },
+   {
+    "from": "11:20",
+    "to": "11:30",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 8737,
+     "car": 1327,
+     "truck": 671,
+     "bus": 103
+    },
+    "total": 10839
+   },
+   {
+    "from": "11:30",
+    "to": "11:40",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 7909,
+     "car": 1261,
+     "truck": 672,
+     "bus": 117
+    },
+    "total": 9959
+   },
+   {
+    "from": "11:40",
+    "to": "11:50",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 8628,
+     "car": 1340,
+     "truck": 553,
+     "bus": 75
+    },
+    "total": 10597
+   },
+   {
+    "from": "11:50",
+    "to": "12:00",
+    "covered_min": 10.0,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 9330,
+     "car": 1220,
+     "truck": 471,
+     "bus": 147
+    },
+    "total": 11168
+   },
+   {
+    "from": "12:00",
+    "to": "12:10",
+    "covered_min": 10.0,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 8999,
+     "car": 1162,
+     "truck": 424,
+     "bus": 83
+    },
+    "total": 10667
+   },
+   {
+    "from": "12:10",
+    "to": "12:20",
+    "covered_min": 10.0,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 8155,
+     "car": 1205,
+     "truck": 492,
+     "bus": 115
+    },
+    "total": 9967
+   },
+   {
+    "from": "12:20",
+    "to": "12:30",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 8409,
+     "car": 1370,
+     "truck": 479,
+     "bus": 129
+    },
+    "total": 10387
+   },
+   {
+    "from": "12:30",
+    "to": "12:40",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 8345,
+     "car": 1250,
+     "truck": 491,
+     "bus": 96
+    },
+    "total": 10183
+   },
+   {
+    "from": "12:40",
+    "to": "12:49",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 8837,
+     "car": 1226,
+     "truck": 521,
+     "bus": 76
+    },
+    "total": 10659
+   }
+  ]
+ },
+ "2026-11-07_1306-1706|Cam_Ly_Thuong_Kiet_Bac_Hai": {
+  "start": "2026-11-07T13:06:12.654000+07:00",
+  "bins": [
+   {
+    "from": "13:06",
+    "to": "14:06",
+    "covered_min": 59.8,
+    "images": 240,
+    "veh_per_h": {
+     "motorcycle": 8813,
+     "car": 1192,
+     "truck": 341,
+     "bus": 92
+    },
+    "total": 10438
+   },
+   {
+    "from": "14:06",
+    "to": "15:06",
+    "covered_min": 60.0,
+    "images": 240,
+    "veh_per_h": {
+     "motorcycle": 9786,
+     "car": 1280,
+     "truck": 288,
+     "bus": 61
+    },
+    "total": 11416
+   },
+   {
+    "from": "15:06",
+    "to": "16:06",
+    "covered_min": 57.5,
+    "images": 231,
+    "veh_per_h": {
+     "motorcycle": 11515,
+     "car": 1171,
+     "truck": 206,
+     "bus": 76
+    },
+    "total": 12968
+   },
+   {
+    "from": "16:06",
+    "to": "17:05",
+    "covered_min": 60.0,
+    "images": 240,
+    "veh_per_h": {
+     "motorcycle": 12242,
+     "car": 1234,
+     "truck": 126,
+     "bus": 66
+    },
+    "total": 13668
+   }
+  ],
+  "series_10min": [
+   {
+    "from": "13:06",
+    "to": "13:16",
+    "covered_min": 10.0,
+    "images": 41,
+    "veh_per_h": {
+     "motorcycle": 9788,
+     "car": 1253,
+     "truck": 406,
+     "bus": 117
+    },
+    "total": 11564
+   },
+   {
+    "from": "13:16",
+    "to": "13:26",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 8796,
+     "car": 1002,
+     "truck": 296,
+     "bus": 75
+    },
+    "total": 10170
+   },
+   {
+    "from": "13:26",
+    "to": "13:36",
+    "covered_min": 9.8,
+    "images": 39,
+    "veh_per_h": {
+     "motorcycle": 8076,
+     "car": 977,
+     "truck": 291,
+     "bus": 86
+    },
+    "total": 9429
+   },
+   {
+    "from": "13:36",
+    "to": "13:46",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 7761,
+     "car": 1429,
+     "truck": 328,
+     "bus": 98
+    },
+    "total": 9616
+   },
+   {
+    "from": "13:46",
+    "to": "13:56",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 9043,
+     "car": 1342,
+     "truck": 322,
+     "bus": 98
+    },
+    "total": 10805
+   },
+   {
+    "from": "13:56",
+    "to": "14:06",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 9397,
+     "car": 1146,
+     "truck": 400,
+     "bus": 79
+    },
+    "total": 11022
+   },
+   {
+    "from": "14:06",
+    "to": "14:16",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 10370,
+     "car": 1275,
+     "truck": 282,
+     "bus": 65
+    },
+    "total": 11992
+   },
+   {
+    "from": "14:16",
+    "to": "14:26",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 9416,
+     "car": 1412,
+     "truck": 329,
+     "bus": 75
+    },
+    "total": 11232
+   },
+   {
+    "from": "14:26",
+    "to": "14:36",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 9497,
+     "car": 1251,
+     "truck": 271,
+     "bus": 70
+    },
+    "total": 11088
+   },
+   {
+    "from": "14:36",
+    "to": "14:46",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 9090,
+     "car": 1322,
+     "truck": 328,
+     "bus": 56
+    },
+    "total": 10797
+   },
+   {
+    "from": "14:46",
+    "to": "14:56",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 10110,
+     "car": 1051,
+     "truck": 251,
+     "bus": 47
+    },
+    "total": 11459
+   },
+   {
+    "from": "14:56",
+    "to": "15:06",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 10235,
+     "car": 1371,
+     "truck": 266,
+     "bus": 56
+    },
+    "total": 11927
+   },
+   {
+    "from": "15:06",
+    "to": "15:16",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 10031,
+     "car": 1185,
+     "truck": 238,
+     "bus": 79
+    },
+    "total": 11533
+   },
+   {
+    "from": "15:16",
+    "to": "15:26",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 11618,
+     "car": 1225,
+     "truck": 194,
+     "bus": 61
+    },
+    "total": 13097
+   },
+   {
+    "from": "15:26",
+    "to": "15:36",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 12023,
+     "car": 1209,
+     "truck": 283,
+     "bus": 79
+    },
+    "total": 13594
+   },
+   {
+    "from": "15:36",
+    "to": "15:46",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 12022,
+     "car": 1144,
+     "truck": 219,
+     "bus": 117
+    },
+    "total": 13502
+   },
+   {
+    "from": "15:46",
+    "to": "15:56",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 11898,
+     "car": 1115,
+     "truck": 129,
+     "bus": 75
+    },
+    "total": 13216
+   },
+   {
+    "from": "15:56",
+    "to": "16:06",
+    "covered_min": 7.5,
+    "images": 31,
+    "veh_per_h": {
+     "motorcycle": 11491,
+     "car": 1141,
+     "truck": 166,
+     "bus": 37
+    },
+    "total": 12836
+   },
+   {
+    "from": "16:06",
+    "to": "16:16",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 11526,
+     "car": 1095,
+     "truck": 135,
+     "bus": 65
+    },
+    "total": 12822
+   },
+   {
+    "from": "16:16",
+    "to": "16:26",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 11839,
+     "car": 1218,
+     "truck": 144,
+     "bus": 84
+    },
+    "total": 13285
+   },
+   {
+    "from": "16:26",
+    "to": "16:36",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 11892,
+     "car": 1013,
+     "truck": 133,
+     "bus": 75
+    },
+    "total": 13113
+   },
+   {
+    "from": "16:36",
+    "to": "16:46",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 12178,
+     "car": 1298,
+     "truck": 142,
+     "bus": 53
+    },
+    "total": 13670
+   },
+   {
+    "from": "16:46",
+    "to": "16:56",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 12237,
+     "car": 1459,
+     "truck": 124,
+     "bus": 61
+    },
+    "total": 13880
+   },
+   {
+    "from": "16:56",
+    "to": "17:05",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 13781,
+     "car": 1323,
+     "truck": 77,
+     "bus": 56
+    },
+    "total": 15237
+   }
+  ]
+ },
+ "2026-11-07_1306-1706|Cam_Thanh_Thai_To_Hien_Thanh": {
+  "start": "2026-11-07T13:06:12.653000+07:00",
+  "bins": [
+   {
+    "from": "13:06",
+    "to": "14:06",
+    "covered_min": 59.8,
+    "images": 240,
+    "veh_per_h": {
+     "motorcycle": 9614,
+     "car": 1618,
+     "truck": 303,
+     "bus": 49
+    },
+    "total": 11584
+   },
+   {
+    "from": "14:06",
+    "to": "15:06",
+    "covered_min": 60.0,
+    "images": 238,
+    "veh_per_h": {
+     "motorcycle": 9560,
+     "car": 1604,
+     "truck": 283,
+     "bus": 49
+    },
+    "total": 11497
+   },
+   {
+    "from": "15:06",
+    "to": "16:06",
+    "covered_min": 57.5,
+    "images": 231,
+    "veh_per_h": {
+     "motorcycle": 10955,
+     "car": 1364,
+     "truck": 176,
+     "bus": 39
+    },
+    "total": 12534
+   },
+   {
+    "from": "16:06",
+    "to": "17:05",
+    "covered_min": 60.0,
+    "images": 240,
+    "veh_per_h": {
+     "motorcycle": 12167,
+     "car": 1203,
+     "truck": 90,
+     "bus": 42
+    },
+    "total": 13503
+   }
+  ],
+  "series_10min": [
+   {
+    "from": "13:06",
+    "to": "13:16",
+    "covered_min": 10.0,
+    "images": 41,
+    "veh_per_h": {
+     "motorcycle": 9918,
+     "car": 1267,
+     "truck": 310,
+     "bus": 61
+    },
+    "total": 11556
+   },
+   {
+    "from": "13:16",
+    "to": "13:26",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 9570,
+     "car": 1571,
+     "truck": 316,
+     "bus": 33
+    },
+    "total": 11489
+   },
+   {
+    "from": "13:26",
+    "to": "13:36",
+    "covered_min": 9.8,
+    "images": 39,
+    "veh_per_h": {
+     "motorcycle": 9392,
+     "car": 1730,
+     "truck": 257,
+     "bus": 53
+    },
+    "total": 11433
+   },
+   {
+    "from": "13:36",
+    "to": "13:46",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 9459,
+     "car": 1784,
+     "truck": 393,
+     "bus": 61
+    },
+    "total": 11697
+   },
+   {
+    "from": "13:46",
+    "to": "13:56",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 9403,
+     "car": 1763,
+     "truck": 309,
+     "bus": 42
+    },
+    "total": 11517
+   },
+   {
+    "from": "13:56",
+    "to": "14:06",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 9938,
+     "car": 1592,
+     "truck": 232,
+     "bus": 47
+    },
+    "total": 11809
+   },
+   {
+    "from": "14:06",
+    "to": "14:16",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 9756,
+     "car": 1828,
+     "truck": 232,
+     "bus": 39
+    },
+    "total": 11855
+   },
+   {
+    "from": "14:16",
+    "to": "14:26",
+    "covered_min": 10.0,
+    "images": 38,
+    "veh_per_h": {
+     "motorcycle": 10184,
+     "car": 1749,
+     "truck": 323,
+     "bus": 28
+    },
+    "total": 12284
+   },
+   {
+    "from": "14:26",
+    "to": "14:36",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 8973,
+     "car": 1718,
+     "truck": 326,
+     "bus": 43
+    },
+    "total": 11061
+   },
+   {
+    "from": "14:36",
+    "to": "14:46",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 9956,
+     "car": 1436,
+     "truck": 277,
+     "bus": 75
+    },
+    "total": 11743
+   },
+   {
+    "from": "14:46",
+    "to": "14:56",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 9035,
+     "car": 1528,
+     "truck": 238,
+     "bus": 47
+    },
+    "total": 10848
+   },
+   {
+    "from": "14:56",
+    "to": "15:06",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 9458,
+     "car": 1365,
+     "truck": 303,
+     "bus": 65
+    },
+    "total": 11190
+   },
+   {
+    "from": "15:06",
+    "to": "15:16",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 10309,
+     "car": 1386,
+     "truck": 200,
+     "bus": 23
+    },
+    "total": 11918
+   },
+   {
+    "from": "15:16",
+    "to": "15:26",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 10712,
+     "car": 1429,
+     "truck": 200,
+     "bus": 47
+    },
+    "total": 12387
+   },
+   {
+    "from": "15:26",
+    "to": "15:36",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 11397,
+     "car": 1308,
+     "truck": 180,
+     "bus": 37
+    },
+    "total": 12922
+   },
+   {
+    "from": "15:36",
+    "to": "15:46",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 11434,
+     "car": 1521,
+     "truck": 219,
+     "bus": 47
+    },
+    "total": 13221
+   },
+   {
+    "from": "15:46",
+    "to": "15:56",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 10990,
+     "car": 1258,
+     "truck": 155,
+     "bus": 33
+    },
+    "total": 12435
+   },
+   {
+    "from": "15:56",
+    "to": "16:06",
+    "covered_min": 7.5,
+    "images": 31,
+    "veh_per_h": {
+     "motorcycle": 10867,
+     "car": 1257,
+     "truck": 78,
+     "bus": 50
+    },
+    "total": 12252
+   },
+   {
+    "from": "16:06",
+    "to": "16:16",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 11439,
+     "car": 1117,
+     "truck": 71,
+     "bus": 28
+    },
+    "total": 12655
+   },
+   {
+    "from": "16:16",
+    "to": "16:26",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 10820,
+     "car": 1334,
+     "truck": 95,
+     "bus": 56
+    },
+    "total": 12304
+   },
+   {
+    "from": "16:26",
+    "to": "16:36",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 11942,
+     "car": 1064,
+     "truck": 84,
+     "bus": 45
+    },
+    "total": 13135
+   },
+   {
+    "from": "16:36",
+    "to": "16:46",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 12512,
+     "car": 1119,
+     "truck": 118,
+     "bus": 34
+    },
+    "total": 13782
+   },
+   {
+    "from": "16:46",
+    "to": "16:56",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 12917,
+     "car": 1335,
+     "truck": 52,
+     "bus": 35
+    },
+    "total": 14338
+   },
+   {
+    "from": "16:56",
+    "to": "17:05",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 13374,
+     "car": 1252,
+     "truck": 122,
+     "bus": 56
+    },
+    "total": 14804
+   }
+  ]
+ },
+ "2026-11-07_1306-1706|Cam_To_Hien_Thanh_1": {
+  "start": "2026-11-07T13:06:12.653000+07:00",
+  "bins": [
+   {
+    "from": "13:06",
+    "to": "14:06",
+    "covered_min": 59.8,
+    "images": 240,
+    "veh_per_h": {
+     "motorcycle": 3540,
+     "car": 653,
+     "truck": 135,
+     "bus": 61
+    },
+    "total": 4389
+   },
+   {
+    "from": "14:06",
+    "to": "15:06",
+    "covered_min": 60.0,
+    "images": 239,
+    "veh_per_h": {
+     "motorcycle": 3970,
+     "car": 675,
+     "truck": 142,
+     "bus": 59
+    },
+    "total": 4846
+   },
+   {
+    "from": "15:06",
+    "to": "16:06",
+    "covered_min": 57.5,
+    "images": 231,
+    "veh_per_h": {
+     "motorcycle": 4850,
+     "car": 637,
+     "truck": 99,
+     "bus": 47
+    },
+    "total": 5634
+   },
+   {
+    "from": "16:06",
+    "to": "17:05",
+    "covered_min": 60.0,
+    "images": 239,
+    "veh_per_h": {
+     "motorcycle": 5946,
+     "car": 620,
+     "truck": 76,
+     "bus": 58
+    },
+    "total": 6699
+   }
+  ],
+  "series_10min": [
+   {
+    "from": "13:06",
+    "to": "13:16",
+    "covered_min": 10.0,
+    "images": 41,
+    "veh_per_h": {
+     "motorcycle": 4525,
+     "car": 570,
+     "truck": 103,
+     "bus": 56
+    },
+    "total": 5253
+   },
+   {
+    "from": "13:16",
+    "to": "13:26",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 3338,
+     "car": 569,
+     "truck": 116,
+     "bus": 56
+    },
+    "total": 4078
+   },
+   {
+    "from": "13:26",
+    "to": "13:36",
+    "covered_min": 9.8,
+    "images": 39,
+    "veh_per_h": {
+     "motorcycle": 2383,
+     "car": 656,
+     "truck": 145,
+     "bus": 86
+    },
+    "total": 3271
+   },
+   {
+    "from": "13:36",
+    "to": "13:46",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 3166,
+     "car": 632,
+     "truck": 137,
+     "bus": 68
+    },
+    "total": 4003
+   },
+   {
+    "from": "13:46",
+    "to": "13:56",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 3319,
+     "car": 881,
+     "truck": 167,
+     "bus": 47
+    },
+    "total": 4415
+   },
+   {
+    "from": "13:56",
+    "to": "14:06",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 4481,
+     "car": 611,
+     "truck": 142,
+     "bus": 51
+    },
+    "total": 5285
+   },
+   {
+    "from": "14:06",
+    "to": "14:16",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 4557,
+     "car": 802,
+     "truck": 90,
+     "bus": 37
+    },
+    "total": 5487
+   },
+   {
+    "from": "14:16",
+    "to": "14:26",
+    "covered_min": 10.0,
+    "images": 39,
+    "veh_per_h": {
+     "motorcycle": 3712,
+     "car": 693,
+     "truck": 150,
+     "bus": 36
+    },
+    "total": 4590
+   },
+   {
+    "from": "14:26",
+    "to": "14:36",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 3125,
+     "car": 685,
+     "truck": 148,
+     "bus": 42
+    },
+    "total": 4000
+   },
+   {
+    "from": "14:36",
+    "to": "14:46",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 4290,
+     "car": 542,
+     "truck": 149,
+     "bus": 75
+    },
+    "total": 5056
+   },
+   {
+    "from": "14:46",
+    "to": "14:56",
+    "covered_min": 10.1,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 4724,
+     "car": 511,
+     "truck": 168,
+     "bus": 74
+    },
+    "total": 5477
+   },
+   {
+    "from": "14:56",
+    "to": "15:06",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 3410,
+     "car": 819,
+     "truck": 150,
+     "bus": 88
+    },
+    "total": 4466
+   },
+   {
+    "from": "15:06",
+    "to": "15:16",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 4020,
+     "car": 569,
+     "truck": 148,
+     "bus": 56
+    },
+    "total": 4793
+   },
+   {
+    "from": "15:16",
+    "to": "15:26",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 5421,
+     "car": 682,
+     "truck": 84,
+     "bus": 51
+    },
+    "total": 6238
+   },
+   {
+    "from": "15:26",
+    "to": "15:36",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 5096,
+     "car": 813,
+     "truck": 176,
+     "bus": 41
+    },
+    "total": 6126
+   },
+   {
+    "from": "15:36",
+    "to": "15:46",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 5864,
+     "car": 611,
+     "truck": 64,
+     "bus": 47
+    },
+    "total": 6586
+   },
+   {
+    "from": "15:46",
+    "to": "15:56",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 4647,
+     "car": 569,
+     "truck": 64,
+     "bus": 42
+    },
+    "total": 5322
+   },
+   {
+    "from": "15:56",
+    "to": "16:06",
+    "covered_min": 7.5,
+    "images": 31,
+    "veh_per_h": {
+     "motorcycle": 3785,
+     "car": 561,
+     "truck": 40,
+     "bus": 48
+    },
+    "total": 4434
+   },
+   {
+    "from": "16:06",
+    "to": "16:16",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 5210,
+     "car": 573,
+     "truck": 64,
+     "bus": 47
+    },
+    "total": 5894
+   },
+   {
+    "from": "16:16",
+    "to": "16:26",
+    "covered_min": 10.0,
+    "images": 39,
+    "veh_per_h": {
+     "motorcycle": 4147,
+     "car": 646,
+     "truck": 82,
+     "bus": 70
+    },
+    "total": 4945
+   },
+   {
+    "from": "16:26",
+    "to": "16:36",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 5849,
+     "car": 675,
+     "truck": 90,
+     "bus": 42
+    },
+    "total": 6656
+   },
+   {
+    "from": "16:36",
+    "to": "16:46",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 7137,
+     "car": 574,
+     "truck": 60,
+     "bus": 47
+    },
+    "total": 7817
+   },
+   {
+    "from": "16:46",
+    "to": "16:56",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 6946,
+     "car": 699,
+     "truck": 77,
+     "bus": 65
+    },
+    "total": 7787
+   },
+   {
+    "from": "16:56",
+    "to": "17:05",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 6385,
+     "car": 555,
+     "truck": 84,
+     "bus": 75
+    },
+    "total": 7098
+   }
+  ]
+ },
+ "2026-11-07_1306-1706|Cam_To_Hien_Thanh_2": {
+  "start": "2026-11-07T13:06:12.680000+07:00",
+  "bins": [
+   {
+    "from": "13:06",
+    "to": "14:06",
+    "covered_min": 59.8,
+    "images": 240,
+    "veh_per_h": {
+     "motorcycle": 4570,
+     "car": 1195,
+     "truck": 372,
+     "bus": 74
+    },
+    "total": 6210
+   },
+   {
+    "from": "14:06",
+    "to": "15:06",
+    "covered_min": 60.0,
+    "images": 239,
+    "veh_per_h": {
+     "motorcycle": 4911,
+     "car": 1252,
+     "truck": 406,
+     "bus": 85
+    },
+    "total": 6654
+   },
+   {
+    "from": "15:06",
+    "to": "16:06",
+    "covered_min": 57.5,
+    "images": 231,
+    "veh_per_h": {
+     "motorcycle": 7193,
+     "car": 1254,
+     "truck": 310,
+     "bus": 87
+    },
+    "total": 8843
+   },
+   {
+    "from": "16:06",
+    "to": "17:05",
+    "covered_min": 60.0,
+    "images": 240,
+    "veh_per_h": {
+     "motorcycle": 8187,
+     "car": 1271,
+     "truck": 261,
+     "bus": 84
+    },
+    "total": 9803
+   }
+  ],
+  "series_10min": [
+   {
+    "from": "13:06",
+    "to": "13:16",
+    "covered_min": 10.0,
+    "images": 41,
+    "veh_per_h": {
+     "motorcycle": 6501,
+     "car": 1403,
+     "truck": 413,
+     "bus": 107
+    },
+    "total": 8425
+   },
+   {
+    "from": "13:16",
+    "to": "13:26",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 4075,
+     "car": 881,
+     "truck": 309,
+     "bus": 51
+    },
+    "total": 5317
+   },
+   {
+    "from": "13:26",
+    "to": "13:36",
+    "covered_min": 9.8,
+    "images": 39,
+    "veh_per_h": {
+     "motorcycle": 3385,
+     "car": 1152,
+     "truck": 330,
+     "bus": 67
+    },
+    "total": 4935
+   },
+   {
+    "from": "13:36",
+    "to": "13:46",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 4248,
+     "car": 1265,
+     "truck": 456,
+     "bus": 76
+    },
+    "total": 6045
+   },
+   {
+    "from": "13:46",
+    "to": "13:56",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 4481,
+     "car": 1201,
+     "truck": 432,
+     "bus": 98
+    },
+    "total": 6212
+   },
+   {
+    "from": "13:56",
+    "to": "14:06",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 4702,
+     "car": 1265,
+     "truck": 290,
+     "bus": 42
+    },
+    "total": 6299
+   },
+   {
+    "from": "14:06",
+    "to": "14:16",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 6149,
+     "car": 1171,
+     "truck": 327,
+     "bus": 89
+    },
+    "total": 7734
+   },
+   {
+    "from": "14:16",
+    "to": "14:26",
+    "covered_min": 10.0,
+    "images": 39,
+    "veh_per_h": {
+     "motorcycle": 5026,
+     "car": 1119,
+     "truck": 434,
+     "bus": 89
+    },
+    "total": 6667
+   },
+   {
+    "from": "14:26",
+    "to": "14:36",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 3928,
+     "car": 1322,
+     "truck": 496,
+     "bus": 65
+    },
+    "total": 5811
+   },
+   {
+    "from": "14:36",
+    "to": "14:46",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 4112,
+     "car": 1244,
+     "truck": 477,
+     "bus": 79
+    },
+    "total": 5911
+   },
+   {
+    "from": "14:46",
+    "to": "14:56",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 5827,
+     "car": 1393,
+     "truck": 399,
+     "bus": 84
+    },
+    "total": 7703
+   },
+   {
+    "from": "14:56",
+    "to": "15:06",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 4425,
+     "car": 1265,
+     "truck": 303,
+     "bus": 103
+    },
+    "total": 6095
+   },
+   {
+    "from": "15:06",
+    "to": "15:16",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 5163,
+     "car": 1272,
+     "truck": 354,
+     "bus": 89
+    },
+    "total": 6878
+   },
+   {
+    "from": "15:16",
+    "to": "15:26",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 7339,
+     "car": 1315,
+     "truck": 309,
+     "bus": 70
+    },
+    "total": 9033
+   },
+   {
+    "from": "15:26",
+    "to": "15:36",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 7929,
+     "car": 1358,
+     "truck": 290,
+     "bus": 98
+    },
+    "total": 9674
+   },
+   {
+    "from": "15:36",
+    "to": "15:46",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 7744,
+     "car": 1024,
+     "truck": 309,
+     "bus": 75
+    },
+    "total": 9152
+   },
+   {
+    "from": "15:46",
+    "to": "15:56",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 7136,
+     "car": 1372,
+     "truck": 271,
+     "bus": 79
+    },
+    "total": 8858
+   },
+   {
+    "from": "15:56",
+    "to": "16:06",
+    "covered_min": 7.5,
+    "images": 31,
+    "veh_per_h": {
+     "motorcycle": 8065,
+     "car": 1159,
+     "truck": 332,
+     "bus": 119
+    },
+    "total": 9674
+   },
+   {
+    "from": "16:06",
+    "to": "16:16",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 8316,
+     "car": 1223,
+     "truck": 251,
+     "bus": 84
+    },
+    "total": 9874
+   },
+   {
+    "from": "16:16",
+    "to": "16:26",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 7388,
+     "car": 1348,
+     "truck": 258,
+     "bus": 73
+    },
+    "total": 9068
+   },
+   {
+    "from": "16:26",
+    "to": "16:36",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 8235,
+     "car": 1151,
+     "truck": 307,
+     "bus": 84
+    },
+    "total": 9776
+   },
+   {
+    "from": "16:36",
+    "to": "16:46",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 7418,
+     "car": 1369,
+     "truck": 249,
+     "bus": 125
+    },
+    "total": 9161
+   },
+   {
+    "from": "16:46",
+    "to": "16:56",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 8966,
+     "car": 1272,
+     "truck": 266,
+     "bus": 60
+    },
+    "total": 10564
+   },
+   {
+    "from": "16:56",
+    "to": "17:05",
+    "covered_min": 10.0,
+    "images": 40,
+    "veh_per_h": {
+     "motorcycle": 8800,
+     "car": 1266,
+     "truck": 232,
+     "bus": 79
+    },
+    "total": 10377
+   }
+  ]
+ },
+ "2026-11-12_0530-0700|Cam_Ly_Thuong_Kiet_Bac_Hai": {
+  "start": "2026-11-12T05:30:01.717000+07:00",
+  "bins": [
+   {
+    "from": "05:30",
+    "to": "06:30",
+    "covered_min": 59.9,
+    "images": 298,
+    "veh_per_h": {
+     "motorcycle": 7578,
+     "car": 808,
+     "truck": 130,
+     "bus": 69
+    },
+    "total": 8586
+   },
+   {
+    "from": "06:30",
+    "to": "06:59",
+    "covered_min": 30.1,
+    "images": 149,
+    "veh_per_h": {
+     "motorcycle": 12984,
+     "car": 1017,
+     "truck": 74,
+     "bus": 72
+    },
+    "total": 14148
+   }
+  ],
+  "series_10min": [
+   {
+    "from": "05:30",
+    "to": "05:40",
+    "covered_min": 9.8,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 2570,
+     "car": 784,
+     "truck": 114,
+     "bus": 77
+    },
+    "total": 3544
+   },
+   {
+    "from": "05:40",
+    "to": "05:50",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 6103,
+     "car": 749,
+     "truck": 174,
+     "bus": 58
+    },
+    "total": 7083
+   },
+   {
+    "from": "05:50",
+    "to": "06:00",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 6885,
+     "car": 765,
+     "truck": 145,
+     "bus": 82
+    },
+    "total": 7877
+   },
+   {
+    "from": "06:00",
+    "to": "06:10",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 8169,
+     "car": 774,
+     "truck": 89,
+     "bus": 64
+    },
+    "total": 9097
+   },
+   {
+    "from": "06:10",
+    "to": "06:20",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 10034,
+     "car": 847,
+     "truck": 141,
+     "bus": 67
+    },
+    "total": 11088
+   },
+   {
+    "from": "06:20",
+    "to": "06:30",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 11637,
+     "car": 933,
+     "truck": 118,
+     "bus": 67
+    },
+    "total": 12756
+   },
+   {
+    "from": "06:30",
+    "to": "06:40",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 13104,
+     "car": 1120,
+     "truck": 70,
+     "bus": 90
+    },
+    "total": 14383
+   },
+   {
+    "from": "06:40",
+    "to": "06:50",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 13604,
+     "car": 954,
+     "truck": 67,
+     "bus": 73
+    },
+    "total": 14698
+   },
+   {
+    "from": "06:50",
+    "to": "06:59",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 12254,
+     "car": 977,
+     "truck": 86,
+     "bus": 54
+    },
+    "total": 13371
+   }
+  ]
+ },
+ "2026-11-12_0530-0700|Cam_Thanh_Thai_To_Hien_Thanh": {
+  "start": "2026-11-12T05:30:01.617000+07:00",
+  "bins": [
+   {
+    "from": "05:30",
+    "to": "06:30",
+    "covered_min": 59.9,
+    "images": 298,
+    "veh_per_h": {
+     "motorcycle": 7007,
+     "car": 875,
+     "truck": 105,
+     "bus": 55
+    },
+    "total": 8042
+   },
+   {
+    "from": "06:30",
+    "to": "06:59",
+    "covered_min": 29.9,
+    "images": 148,
+    "veh_per_h": {
+     "motorcycle": 11684,
+     "car": 863,
+     "truck": 58,
+     "bus": 50
+    },
+    "total": 12655
+   }
+  ],
+  "series_10min": [
+   {
+    "from": "05:30",
+    "to": "05:40",
+    "covered_min": 9.8,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 2843,
+     "car": 979,
+     "truck": 86,
+     "bus": 64
+    },
+    "total": 3972
+   },
+   {
+    "from": "05:40",
+    "to": "05:50",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 5460,
+     "car": 893,
+     "truck": 117,
+     "bus": 41
+    },
+    "total": 6510
+   },
+   {
+    "from": "05:50",
+    "to": "06:00",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 7705,
+     "car": 914,
+     "truck": 140,
+     "bus": 47
+    },
+    "total": 8806
+   },
+   {
+    "from": "06:00",
+    "to": "06:10",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 7770,
+     "car": 772,
+     "truck": 125,
+     "bus": 41
+    },
+    "total": 8708
+   },
+   {
+    "from": "06:10",
+    "to": "06:20",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 8065,
+     "car": 877,
+     "truck": 79,
+     "bus": 74
+    },
+    "total": 9095
+   },
+   {
+    "from": "06:20",
+    "to": "06:30",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 10132,
+     "car": 817,
+     "truck": 83,
+     "bus": 61
+    },
+    "total": 11093
+   },
+   {
+    "from": "06:30",
+    "to": "06:40",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 10627,
+     "car": 984,
+     "truck": 63,
+     "bus": 40
+    },
+    "total": 11715
+   },
+   {
+    "from": "06:40",
+    "to": "06:50",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 12151,
+     "car": 852,
+     "truck": 58,
+     "bus": 65
+    },
+    "total": 13126
+   },
+   {
+    "from": "06:50",
+    "to": "06:59",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 12291,
+     "car": 750,
+     "truck": 53,
+     "bus": 45
+    },
+    "total": 13140
+   }
+  ]
+ },
+ "2026-11-12_0530-0700|Cam_To_Hien_Thanh_1": {
+  "start": "2026-11-12T05:30:01.537000+07:00",
+  "bins": [
+   {
+    "from": "05:30",
+    "to": "06:30",
+    "covered_min": 59.8,
+    "images": 298,
+    "veh_per_h": {
+     "motorcycle": 2196,
+     "car": 325,
+     "truck": 80,
+     "bus": 52
+    },
+    "total": 2652
+   },
+   {
+    "from": "06:30",
+    "to": "06:59",
+    "covered_min": 30.0,
+    "images": 149,
+    "veh_per_h": {
+     "motorcycle": 5572,
+     "car": 435,
+     "truck": 52,
+     "bus": 47
+    },
+    "total": 6106
+   }
+  ],
+  "series_10min": [
+   {
+    "from": "05:30",
+    "to": "05:40",
+    "covered_min": 9.8,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 56,
+     "car": 79,
+     "truck": 22,
+     "bus": 3
+    },
+    "total": 161
+   },
+   {
+    "from": "05:40",
+    "to": "05:50",
+    "covered_min": 10.0,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 789,
+     "car": 317,
+     "truck": 112,
+     "bus": 31
+    },
+    "total": 1249
+   },
+   {
+    "from": "05:50",
+    "to": "06:00",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 2139,
+     "car": 245,
+     "truck": 80,
+     "bus": 64
+    },
+    "total": 2527
+   },
+   {
+    "from": "06:00",
+    "to": "06:10",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 2140,
+     "car": 510,
+     "truck": 78,
+     "bus": 67
+    },
+    "total": 2795
+   },
+   {
+    "from": "06:10",
+    "to": "06:20",
+    "covered_min": 10.0,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 3344,
+     "car": 366,
+     "truck": 120,
+     "bus": 78
+    },
+    "total": 3908
+   },
+   {
+    "from": "06:20",
+    "to": "06:30",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 4714,
+     "car": 431,
+     "truck": 66,
+     "bus": 67
+    },
+    "total": 5278
+   },
+   {
+    "from": "06:30",
+    "to": "06:40",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 5092,
+     "car": 342,
+     "truck": 41,
+     "bus": 56
+    },
+    "total": 5532
+   },
+   {
+    "from": "06:40",
+    "to": "06:50",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 5951,
+     "car": 443,
+     "truck": 73,
+     "bus": 36
+    },
+    "total": 6503
+   },
+   {
+    "from": "06:50",
+    "to": "06:59",
+    "covered_min": 9.8,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 5674,
+     "car": 522,
+     "truck": 43,
+     "bus": 49
+    },
+    "total": 6288
+   }
+  ]
+ },
+ "2026-11-12_0530-0700|Cam_To_Hien_Thanh_2": {
+  "start": "2026-11-12T05:30:03.228000+07:00",
+  "bins": [
+   {
+    "from": "05:30",
+    "to": "06:30",
+    "covered_min": 59.9,
+    "images": 297,
+    "veh_per_h": {
+     "motorcycle": 4200,
+     "car": 1015,
+     "truck": 283,
+     "bus": 88
+    },
+    "total": 5585
+   },
+   {
+    "from": "06:30",
+    "to": "06:59",
+    "covered_min": 29.9,
+    "images": 148,
+    "veh_per_h": {
+     "motorcycle": 8577,
+     "car": 1058,
+     "truck": 250,
+     "bus": 101
+    },
+    "total": 9986
+   }
+  ],
+  "series_10min": [
+   {
+    "from": "05:30",
+    "to": "05:40",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 627,
+     "car": 595,
+     "truck": 153,
+     "bus": 46
+    },
+    "total": 1421
+   },
+   {
+    "from": "05:40",
+    "to": "05:50",
+    "covered_min": 10.0,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 1677,
+     "car": 1027,
+     "truck": 325,
+     "bus": 69
+    },
+    "total": 3098
+   },
+   {
+    "from": "05:50",
+    "to": "06:00",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 4402,
+     "car": 926,
+     "truck": 351,
+     "bus": 115
+    },
+    "total": 5794
+   },
+   {
+    "from": "06:00",
+    "to": "06:10",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 4701,
+     "car": 1429,
+     "truck": 258,
+     "bus": 79
+    },
+    "total": 6467
+   },
+   {
+    "from": "06:10",
+    "to": "06:20",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 5811,
+     "car": 1174,
+     "truck": 340,
+     "bus": 106
+    },
+    "total": 7431
+   },
+   {
+    "from": "06:20",
+    "to": "06:30",
+    "covered_min": 10.0,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 7960,
+     "car": 933,
+     "truck": 269,
+     "bus": 111
+    },
+    "total": 9273
+   },
+   {
+    "from": "06:30",
+    "to": "06:40",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 8670,
+     "car": 1019,
+     "truck": 188,
+     "bus": 92
+    },
+    "total": 9969
+   },
+   {
+    "from": "06:40",
+    "to": "06:50",
+    "covered_min": 10.1,
+    "images": 50,
+    "veh_per_h": {
+     "motorcycle": 8805,
+     "car": 1163,
+     "truck": 323,
+     "bus": 105
+    },
+    "total": 10397
+   },
+   {
+    "from": "06:50",
+    "to": "06:59",
+    "covered_min": 9.9,
+    "images": 49,
+    "veh_per_h": {
+     "motorcycle": 8250,
+     "car": 990,
+     "truck": 238,
+     "bus": 105
+    },
+    "total": 9583
+   }
+  ]
+ }
+}

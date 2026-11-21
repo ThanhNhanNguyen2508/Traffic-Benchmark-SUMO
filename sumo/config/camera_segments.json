@@ -1,0 +1,7 @@
+{
+  "_comment": "Camera -> SUMO edges it observes. A camera count is both directions; each direction gets half. To Hien Thanh 2 watches Ly Thuong Kiet J0-J2, which passes J1, so both sub-segments get the same target.",
+  "Cam_Ly_Thuong_Kiet_Bac_Hai":   {"road": "Bac Hai J0 <-> J5",        "directions": [["BH_J0_J5"], ["BH_J5_J0"]]},
+  "Cam_To_Hien_Thanh_2":          {"road": "Ly Thuong Kiet J0 <-> J2", "directions": [["LTK_J0_J1", "LTK_J1_J2"], ["LTK_J2_J1", "LTK_J1_J0"]]},
+  "Cam_To_Hien_Thanh_1":          {"road": "To Hien Thanh J2 <-> J3",  "directions": [["THT_J2_J3"], ["THT_J3_J2"]]},
+  "Cam_Thanh_Thai_To_Hien_Thanh": {"road": "Thanh Thai J5 <-> J3",     "directions": [["TT_J5_J3"], ["TT_J3_J5"]]}
+}

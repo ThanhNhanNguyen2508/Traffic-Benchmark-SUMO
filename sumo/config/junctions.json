@@ -1,0 +1,53 @@
+{
+  "_comment": "One entry = one agent. J4 is at the edge of the study area: it keeps its fixed-time light and is not controlled (enabled=false).",
+  "junctions": [
+    {
+      "id": "J0",
+      "name": "Lý Thường Kiệt / Bắc Hải",
+      "enabled": true,
+      "tls": [
+        "J0"
+      ]
+    },
+    {
+      "id": "J1",
+      "name": "Lý Thường Kiệt / Đường Số 2",
+      "enabled": true,
+      "tls": [
+        "J1"
+      ]
+    },
+    {
+      "id": "J2",
+      "name": "Lý Thường Kiệt / Tô Hiến Thành / Lữ Gia",
+      "enabled": true,
+      "tls": [
+        "J2"
+      ]
+    },
+    {
+      "id": "J3",
+      "name": "Thành Thái / Tô Hiến Thành",
+      "enabled": true,
+      "tls": [
+        "J3"
+      ]
+    },
+    {
+      "id": "J4",
+      "name": "Tô Hiến Thành / Đồng Nai",
+      "enabled": false,
+      "tls": [
+        "J4"
+      ]
+    },
+    {
+      "id": "J5",
+      "name": "Bắc Hải / Thành Thái",
+      "enabled": true,
+      "tls": [
+        "J5"
+      ]
+    }
+  ]
+}

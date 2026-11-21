@@ -1,0 +1,11 @@
+{
+ "schema_version": "camera-aliases-1",
+ "strip_suffix_regex": "_\\d+p$",
+ "cameras": {
+  "Cam_Ly_Thuong_Kiet_Bac_Hai": ["LyThuongKiet_BacHai"],
+  "Cam_To_Hien_Thanh_2": ["ToHienThanh2"],
+  "Cam_To_Hien_Thanh_1": ["ToHienThanh1"],
+  "Cam_Thanh_Thai_To_Hien_Thanh": ["ThanhThai_ToHienThanh"],
+  "Cam_To_Hien_Thanh_Su_Van_Hanh": ["ToHienThanh_SuVanHanh"]
+ }
+}

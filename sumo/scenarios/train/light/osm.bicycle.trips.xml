@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-11-07 17:41:49.772436 by Eclipse SUMO randomTrips.py v1.28.0
+<configuration>
+    <net-file value="/home/claude/work/261-dacn-main/sumo/map/hcmc.net.xml.gz"/>
+    <output-trip-file value="/home/claude/work/261-dacn-main/sumo/scenarios/light/osm.bicycle.trips.xml"/>
+    <route-file value="/home/claude/work/261-dacn-main/sumo/scenarios/light/osm.bicycle.rou.xml"/>
+    <prefix value="bike"/>
+    <trip-attributes value="departLane=&quot;best&quot;"/>
+    <fringe-start-attributes value="departSpeed=&quot;max&quot;"/>
+    <vehicle-class value="bicycle"/>
+    <fringe-factor value="2"/>
+    <edge-permission value="bicycle"/>
+    <via-edge-types value="highway.motorway,highway.motorway_link,highway.trunk_link,highway.primary_link,highway.secondary_link,highway.tertiary_link"/>
+    <max-distance value="8000.0"/>
+    <remove-loops value="True"/>
+    <insertion-density value="1.0"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bike_bicycle" vClass="bicycle"/>
+    <trip id="bike0" depart="0.00" from="LTK_J2_J1" to="BH_J0_J5" departLane="best" type="bike_bicycle"/>
+    <trip id="bike1" depart="166.50" from="H319A_B_H319A_J0" to="DS2_J1_B_DS2" departLane="best" type="bike_bicycle" departSpeed="max"/>
+    <trip id="bike2" depart="333.00" from="THT_J2_J3" to="THT_J2_J3" departLane="best" type="bike_bicycle"/>
+    <trip id="bike3" depart="499.50" from="TT_B_TT_S_J3" to="BH_J5_B_BH_E" departLane="best" type="bike_bicycle" departSpeed="max"/>
+    <trip id="bike4" depart="666.00" from="LTK_B_LTK_N_J0" to="BH_J0_J5" departLane="best" type="bike_bicycle" departSpeed="max"/>
+    <trip id="bike5" depart="832.50" from="DS2_B_DS2_J1" to="LTK_J1_J0" departLane="best" type="bike_bicycle" departSpeed="max"/>
+    <trip id="bike6" depart="999.00" from="BH_B_BH_E_J5" to="DN_J4_B_DN" departLane="best" type="bike_bicycle" departSpeed="max"/>
+    <trip id="bike7" depart="1165.50" from="DS2_B_DS2_J1" to="LTK_J2_B_LTK_S" departLane="best" type="bike_bicycle" departSpeed="max"/>
+    <trip id="bike8" depart="1332.00" from="LG_B_LG_J2" to="DN_J4_B_DN" departLane="best" type="bike_bicycle" departSpeed="max"/>
+    <trip id="bike9" depart="1498.50" from="TT_J3_J5" to="LG_J2_B_LG" departLane="best" type="bike_bicycle"/>
+    <trip id="bike10" depart="1665.00" from="BH_J0_J5" to="BH_J5_B_BH_E" departLane="best" type="bike_bicycle"/>
+    <trip id="bike11" depart="1831.50" from="THT_J4_J3" to="LTK_J2_B_LTK_S" departLane="best" type="bike_bicycle"/>
+    <trip id="bike12" depart="1997.99" from="LG_B_LG_J2" to="LTK_J1_J2" departLane="best" type="bike_bicycle" departSpeed="max"/>
+    <trip id="bike13" depart="2164.49" from="THT_J4_J3" to="LTK_J2_B_LTK_S" departLane="best" type="bike_bicycle"/>
+    <trip id="bike14" depart="2330.99" from="THT_B_THT_E_J4" to="BH_J5_B_BH_E" departLane="best" type="bike_bicycle" departSpeed="max"/>
+    <trip id="bike15" depart="2497.49" from="BH_J0_J5" to="DS2_J1_B_DS2" departLane="best" type="bike_bicycle"/>
+    <trip id="bike16" depart="2663.99" from="LTK_J2_J1" to="LG_J2_B_LG" departLane="best" type="bike_bicycle"/>
+    <trip id="bike17" depart="2830.49" from="LG_B_LG_J2" to="DS2_J1_B_DS2" departLane="best" type="bike_bicycle" departSpeed="max"/>
+    <trip id="bike18" depart="2996.99" from="H319A_B_H319A_J0" to="TT_J3_J5" departLane="best" type="bike_bicycle" departSpeed="max"/>
+    <trip id="bike19" depart="3163.49" from="LTK_J2_J1" to="LTK_J2_B_LTK_S" departLane="best" type="bike_bicycle"/>
+    <trip id="bike20" depart="3329.99" from="DN_B_DN_J4" to="THT_J3_J2" departLane="best" type="bike_bicycle" departSpeed="max"/>
+    <trip id="bike21" depart="3496.49" from="DN_B_DN_J4" to="LG_J2_B_LG" departLane="best" type="bike_bicycle" departSpeed="max"/>
+</routes>

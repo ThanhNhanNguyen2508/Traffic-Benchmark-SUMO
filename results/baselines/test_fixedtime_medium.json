@@ -1,0 +1,16 @@
+[
+  {
+    "travel_time": 335.0152535657686,
+    "travel_time_arrived": 283.3237920769407,
+    "departed": 5048,
+    "arrived": 4367,
+    "in_network_at_end": 681,
+    "pending_insertion": 0,
+    "teleports": 32,
+    "avg_queue": 165.49305555555554,
+    "mean_reward": -10.050638888888882,
+    "episode": 0,
+    "seed": 0,
+    "wall_s": 40.8
+  }
+]

@@ -1,0 +1,12 @@
+# Flow estimation (detection, calibration, inference, figures)
+ultralytics>=8.3        # YOLO11 (tested 8.4.191)
+torch>=2.0              # tested 2.6.0 + CUDA 12.4
+numpy>=1.24
+scipy>=1.10             # Hungarian matching (linear_sum_assignment)
+pillow>=10
+matplotlib>=3.7
+# SUMO benchmark (scenario building, MPLight / MaxPressure / fixed-time)
+eclipse-sumo>=1.20      # or a system SUMO install with SUMO_HOME set (tested 1.28.0)
+sumolib>=1.20
+traci>=1.20
+libsumo>=1.20
