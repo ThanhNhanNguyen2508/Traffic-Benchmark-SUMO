@@ -18,6 +18,10 @@ is pooled over the 3 held-out folds. The final calibration (used for inference) 
 
     python -m flow_estimation.calibrate --calib data/calibration --dets data/detections/calibration_yolo11x_1280.jsonl.gz \
         --out flow_estimation/calibration/yolo11x_1280.json
+
+Adaptive beta (default on, --no-adaptive-beta gives the plain output): after the final thresholds, the per-frame
+density factor clip(D/Dbar)^gamma of adaptive_beta.py is fitted (gamma per class by CV, or --gamma) and written
+as the extra key "adaptive_beta". The keys beta/conf/cv/folds are unchanged.
 """
 from __future__ import annotations
 
@@ -30,7 +34,8 @@ from pathlib import Path
 
 import numpy as np
 
-from .common import CLASSES, GROUP, count_new, load_detections, wape
+from . import adaptive_beta
+from .common import CLASSES, GROUP, STATIC_FRAC, count_new, load_detections, static_cells, wape
 
 GAPS = (5, 10, 15, 20, 30)
 CONFS = (0.1, 0.15, 0.2, 0.25, 0.3, 0.35)
@@ -52,15 +57,18 @@ def schedules(frames, seed_key):
 
 
 def _work(v):
-    """new-vehicle counts of video v for every (sequence, threshold): {(seq, conf): (new[K,4], dts[K])}"""
+    """new-vehicle counts of video v for every (sequence, threshold): {(seq, conf): (new[K,4], dts[K], dens[K,4] | None)}
+    dens (per-frame density, adaptive beta) is computed only when _G["adaptive"] is set."""
     D, sch = _G["dets"], _G["sch"][v]
     res = {}
     for name, seq in sch.items():
         dts = np.diff([r["T"] for r in seq], prepend=np.nan)
         for conf in CONFS:
             frames = [[d for d in D[r["image"]] if d[5] >= conf and d[0] in GROUP] for r in seq]
-            n = count_new(frames); n[0] = 0                     # first image: no previous one
-            res[(name, conf)] = (n, dts)
+            mask = static_cells(frames, STATIC_FRAC)
+            n = count_new(frames, mask=mask); n[0] = 0          # first image: no previous one
+            dens = adaptive_beta.frame_density(frames, mask) if _G.get("adaptive") else None
+            res[(name, conf)] = (n, dts, dens)
     return v, res
 
 
@@ -92,6 +100,10 @@ def main():
     ap.add_argument("--dets", type=Path, required=True, help="detections of the calibration snapshots (detect.py)")
     ap.add_argument("--out", type=Path, required=True)
     ap.add_argument("--workers", type=int, default=16)
+    ap.add_argument("--adaptive-beta", action=argparse.BooleanOptionalAction, default=True,
+                    help="also fit the density-adaptive beta block (default on)")
+    ap.add_argument("--gamma", type=str, default=None,
+                    help="manual gamma per class, e.g. motorcycle=0.2,car=0,truck=0,bus=0 (missing -> 0); default: fit by CV")
     a = ap.parse_args()
 
     V = json.load(open(a.calib / "videos.json", encoding="utf-8"))
@@ -103,6 +115,16 @@ def main():
     FOLD = {v: folds[V[v]["camera"]] for v in vids}
     Y = {v: np.array([V[v]["flow"][c] for c in CLASSES], float) for v in vids}
 
+    gamma = None
+    if a.gamma:
+        gamma = {c: 0.0 for c in CLASSES}
+        for kv in a.gamma.split(","):
+            k, _, x = kv.partition("=")
+            if k.strip() not in gamma:
+                ap.error(f"--gamma: unknown class {k.strip()!r}")
+            gamma[k.strip()] = float(x)
+
+    _G["adaptive"] = a.adaptive_beta
     _G["dets"] = load_detections(a.dets)
     _G["sch"] = {v: schedules(sorted(fr[v], key=lambda r: r["T"]), v) for v in vids}
     with Pool(a.workers) as p:
@@ -123,7 +145,7 @@ def main():
                 for v in te:
                     p = np.zeros(4)
                     for src, sl, c in (("m", slice(0, 1), cm), ("o", slice(1, 4), co)):
-                        n, dts = R[v][("mix", c)]
+                        n, dts = R[v][("mix", c)][:2]
                         bb = np.where((dts == 10)[:, None], b["10"][None, :], b["15"][None, :])
                         p[sl] = (n * bb).sum(0)[sl]
                     ys.append(Y[v]); ps.append(p)
@@ -145,6 +167,21 @@ def main():
     cm, co = F.thresholds(vids, "10")       # final: thresholds at 10 s on all videos, beta of every gap at them
     out["conf"] = {"motorcycle": cm, "other": co}
     out["beta"] = {str(g): np.round(F.beta(vids, str(g), cm, co), 4).tolist() for g in GAPS}
+    if a.adaptive_beta:
+        gaps = [str(g) for g in GAPS]
+        samples = []
+        for v in vids:
+            for g in gaps:
+                Rm, Ro = R[v][(g, cm)], R[v][(g, co)]       # motorcycle column at cm, the others at co
+                samples.append({"video": v, "fold": FOLD[v], "gap": g, "Y": Y[v],
+                                "new": np.c_[Rm[0][:, :1], Ro[0][:, 1:]], "dens": np.c_[Rm[2][:, :1], Ro[2][:, 1:]]})
+        out["adaptive_beta"] = ab = adaptive_beta.fit(samples, gaps, gamma=gamma)
+        print("adaptive beta: gamma", ab["gamma"], f"({ab['gamma_source']})")
+        for g in gaps:
+            m = ab["cv"][g]["motorcycle"]
+            print(f"  gap {g:>2}: dbar moto {ab['dbar'][g]['motorcycle']:.2f} | CV WAPE moto fixed->adaptive "
+                  f"{m['wape_fixed']:.2f}->{m['wape_adaptive']:.2f}, total {ab['cv'][g]['total']['wape_fixed']:.2f}"
+                  f"->{ab['cv'][g]['total']['wape_adaptive']:.2f}", flush=True)
     a.out.parent.mkdir(parents=True, exist_ok=True)
     json.dump(out, open(a.out, "w"), indent=1)
     print("final conf", out["conf"], "beta", out["beta"], "->", a.out)

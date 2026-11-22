@@ -28,6 +28,7 @@ from pathlib import Path
 
 import numpy as np
 
+from . import adaptive_beta
 from .common import BLOCK_S, CLASSES, MAX_GAP_S, STATIC_FRAC, count_new, load_detections, nearest_gap, static_cells
 from .infer import bins, list_frames
 from .window import window
@@ -35,29 +36,40 @@ from .window import window
 VEHICLES = ("motorcycle", "bicycle", "car", "truck", "bus")
 
 
-def per_frame_flow_directional(frames, D, cal, roi_cam):
-    """frames of one camera in time order -> ts, dt, valid, new{label: [K,4]}, flow{label: [K,4]} (label in roi_cam.directions)"""
+def per_frame_flow_directional(frames, D, cal, roi_cam, adaptive=False):
+    """frames of one camera in time order -> ts, dt, valid, new{label: [K,4]}, flow{label: [K,4]} (label in roi_cam.directions)
+    adaptive=True (needs cal["adaptive_beta"]) -> additionally dens[K,4] (FULL-frame density, not per label) and
+    beta_frame[K,4]; the same per-frame beta is applied to every label"""
     ts = np.array([dt_.datetime.fromisoformat(r["t"]).timestamp() for r in frames])
     beta = {int(g): np.array(b) for g, b in cal["beta"].items()}
     cm, co = cal["conf"]["motorcycle"], cal["conf"]["other"]
     block = ((ts - ts[0]) // BLOCK_S).astype(int)
     labels = list(roi_cam.directions)
     new = {lb: np.zeros((len(frames), 4)) for lb in labels}
+    dens = np.zeros((len(frames), 4))
     for conf, cols in ((cm, slice(0, 1)), (co, slice(1, 4))):      # same per-threshold runs as calibration
         dets = [[d for d in D[r["image"]] if d[5] >= conf and d[0] in VEHICLES] for r in frames]
         parts = [roi_cam.split(fr) for fr in dets]                   # label -> dets of that frame
         n_all = {lb: np.zeros((len(frames), 4)) for lb in labels}
+        d_all = np.zeros((len(frames), 4))
         for b in np.unique(block):
             ii = np.where(block == b)[0]; lo = max(ii[0] - 1, 0)    # keep the previous image for matching
             mask = static_cells(dets[lo:ii[-1] + 1], STATIC_FRAC)    # static mask on the FULL frame
+            if adaptive:
+                d_all[ii] = adaptive_beta.frame_density(dets[lo:ii[-1] + 1], mask)[ii[0] - lo:]
             for lb in labels:
                 n = count_new([p[lb] for p in parts[lo:ii[-1] + 1]], mask=mask)
                 n_all[lb][ii] = n[ii[0] - lo:]
         for lb in labels:
             new[lb][:, cols] = n_all[lb][:, cols]
+        dens[:, cols] = d_all[:, cols]
     dt = np.diff(ts, prepend=np.nan)
     valid = ~np.isnan(dt) & (dt <= MAX_GAP_S)
     g = nearest_gap(np.nan_to_num(dt), beta.keys())
+    if adaptive:
+        beta_frame = adaptive_beta.apply(np.zeros((len(frames), 4)), dens, g, cal["adaptive_beta"])
+        flow = {lb: np.where(valid[:, None], new[lb] * beta_frame, 0.0) for lb in labels}
+        return ts, np.nan_to_num(dt), valid, new, flow, dens, beta_frame
     bg = np.array([beta[x] for x in g])
     flow = {lb: np.where(valid[:, None], new[lb] * bg, 0.0) for lb in labels}
     return ts, np.nan_to_num(dt), valid, new, flow
@@ -96,6 +108,10 @@ def cmd_infer(a):
     D = load_detections(a.dets)
     with open(a.calibration, encoding="utf-8") as f:
         cal = json.load(f)
+    if a.adaptive_beta:
+        if "adaptive_beta" not in cal:
+            raise SystemExit(f"--adaptive-beta: {a.calibration} has no 'adaptive_beta' block (refit with calibrate.py)")
+        print("adaptive beta: on (gamma " + ", ".join(f"{k} {v}" for k, v in cal["adaptive_beta"]["gamma"].items()) + ")")
     groups = {}
     for r in frames:
         groups.setdefault((r["session"], r["camera"]), []).append(r)
@@ -107,12 +123,18 @@ def cmd_infer(a):
             print(f"skip {s}|{c}: camera not in ROI file")
             continue
         rows.sort(key=lambda r: r["t"])
-        ts, dt, valid, new, flow = per_frame_flow_directional(rows, D, cal, roi[c])
+        if a.adaptive_beta:
+            ts, dt, valid, new, flow, dens, beta_frame = per_frame_flow_directional(rows, D, cal, roi[c], adaptive=True)
+        else:
+            ts, dt, valid, new, flow = per_frame_flow_directional(rows, D, cal, roi[c])
         key = f"{s}|{c}"
         series[key] = {"t": [r["t"] for r in rows], "dt": dt.round(3).tolist(), "valid": valid.tolist(),
                        "directions": {lb: {"new": new[lb].astype(int).tolist(), "flow": flow[lb].round(4).tolist()}
                                       for lb in roi[c].directions},
                        "dets_per_label": dets_per_label(rows, D, cal, roi[c])}
+        if a.adaptive_beta:
+            series[key]["density"] = dens.astype(int).tolist()
+            series[key]["beta_frame"] = beta_frame.round(4).tolist()
         print(key, "dets_per_label", series[key]["dets_per_label"])
         for lb in roi[c].directions:
             print(f"  {lb}")
@@ -129,6 +151,11 @@ def cmd_infer(a):
            "series": series}
     with open(a.out / "perframe_directional.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False)
+    if a.adaptive_beta:
+        ab = cal["adaptive_beta"]
+        with open(a.out / "adaptive_beta_used.json", "w", encoding="utf-8") as f:
+            json.dump({"gamma": ab["gamma"], "clip": ab.get("clip"), "gamma_source": ab.get("gamma_source"),
+                       "calibration": str(a.calibration)}, f, indent=1)
     print("->", a.out / "perframe_directional.json")
 
 
@@ -171,6 +198,8 @@ def main():
     p.add_argument("--calibration", type=Path, required=True)
     p.add_argument("--roi", type=Path, required=True, help="directional_roi.json")
     p.add_argument("--bin-min", type=int, default=60, help="aggregation bin (minutes) for the hourly summary")
+    p.add_argument("--adaptive-beta", action="store_true",
+                   help="density-adaptive per-frame beta (full-frame density, same beta for every direction); default off")
     p.add_argument("--out", type=Path, required=True, help="output folder")
     p.set_defaults(fn=cmd_infer)
     p = sub.add_parser("window", help="FORWARD/REVERSE/fullframe rates over clock windows")

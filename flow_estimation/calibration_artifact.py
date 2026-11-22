@@ -12,7 +12,8 @@ P is a calibration JSON, or a directory with one of these layouts (tried in this
     full_recompute OUT_DIR   : calibration/<B>_recomputed.json + detections/calib_<B>.jsonl.gz
     hybrid cache dir         : hybrid_cleaned_calibration.json + calib_hybrid_cleaned.jsonl.gz
 
-Checks: schema (classes, conf in (0,1), beta finite and > 0 for every gap and class); backend consistency via
+Checks: schema (classes, conf in (0,1), beta finite and > 0 for every gap and class; if an "adaptive_beta" block exists:
+gamma finite >= 0 for 4 classes, clip 0 < a < b, per gap dbar finite >= 0 and beta_star finite > 0); backend consistency via
 <calibration>.provenance.json (hybrid_cleaned: required, backend + calibration sha256 + calibration-detection-cache sha256 must match;
 yolo11x: optional, but rejected if it names another backend); with --dets-provenance: its backend must equal --backend and, for hybrid,
 its weights sha256 must equal those recorded for the calibration.
@@ -87,6 +88,39 @@ def _check_schema(cal, problems):
                 problems.append(f"non-finite/invalid beta class={c} gap={g} (calibration set too small for this class)")
 
 
+def _check_adaptive(cal, problems):
+    ab = cal["adaptive_beta"]
+    if not isinstance(ab, dict):
+        problems.append("adaptive_beta is not an object")
+        return
+    gam = ab.get("gamma")
+    if not isinstance(gam, dict) or set(gam) != set(CLASSES):
+        problems.append(f"adaptive_beta.gamma must have exactly the classes {CLASSES}, got {gam!r}")
+    else:
+        for c in CLASSES:
+            if not (_num(gam[c]) and gam[c] >= 0):
+                problems.append(f"adaptive_beta.gamma.{c}={gam[c]!r} not finite >= 0")
+    clip = ab.get("clip")
+    if not (isinstance(clip, list) and len(clip) == 2 and all(_num(x) for x in clip) and 0 < clip[0] < clip[1]):
+        problems.append(f"adaptive_beta.clip={clip!r} not 2 numbers with 0 < a < b")
+    dbar, bs = ab.get("dbar"), ab.get("beta_star")
+    for g in cal.get("gaps_s") or []:
+        d = dbar.get(str(g)) if isinstance(dbar, dict) else None
+        if not isinstance(d, dict) or set(d) != set(CLASSES):
+            problems.append(f"adaptive_beta.dbar gap={g}: missing or wrong classes")
+        else:
+            for c in CLASSES:
+                if not (_num(d[c]) and d[c] >= 0):
+                    problems.append(f"adaptive_beta.dbar gap={g} class={c}={d[c]!r} not finite >= 0")
+        b = bs.get(str(g)) if isinstance(bs, dict) else None
+        if not isinstance(b, list) or len(b) != len(CLASSES):
+            problems.append(f"adaptive_beta.beta_star gap={g}: expected {len(CLASSES)} values, got {b!r}")
+        else:
+            for c, v in zip(CLASSES, b):
+                if not (_num(v) and v > 0):
+                    problems.append(f"adaptive_beta.beta_star gap={g} class={c}={v!r} not finite > 0")
+
+
 def resolve(path, backend, dets_provenance=None) -> dict:
     res = {"schema_version": SCHEMA, "status": "INVALID", "backend": backend, "layout": None, "calibration": None,
            "calibration_sha256": None, "provenance": None, "ground_truth_kind": None, "scientific_validity": None,
@@ -108,6 +142,10 @@ def resolve(path, backend, dets_provenance=None) -> dict:
         pr.append(f"calibration unreadable: {e}")
         return res
     _check_schema(cal, pr)
+    if "adaptive_beta" in cal:
+        _check_adaptive(cal, pr)
+        ab = cal["adaptive_beta"] if isinstance(cal["adaptive_beta"], dict) else {}
+        res["adaptive_beta"] = {"present": True, "gamma": ab.get("gamma"), "gamma_source": ab.get("gamma_source")}
     if isinstance(cal.get("conf"), dict):
         res["conf"] = cal["conf"]
 

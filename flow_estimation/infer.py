@@ -30,7 +30,9 @@ from pathlib import Path
 
 import numpy as np
 
-from .common import BLOCK_S, CLASSES, MAX_GAP_S, STATIC_FRAC, count_new, keep, load_detections, nearest_gap
+from . import adaptive_beta
+from .common import (BLOCK_S, CLASSES, MAX_GAP_S, STATIC_FRAC, count_new, keep, load_detections, nearest_gap,
+                     static_cells)
 
 TZ = dt_.timezone(dt_.timedelta(hours=7))
 
@@ -49,25 +51,37 @@ def list_frames(root: Path, sessions, exclude):
     return rows
 
 
-def per_frame_flow(frames, D, cal):
-    """frames of one camera in time order -> ts, dt, valid, new[K,4], flow[K,4]"""
+def per_frame_flow(frames, D, cal, adaptive=False):
+    """frames of one camera in time order -> ts, dt, valid, new[K,4], flow[K,4]
+    adaptive=True (needs cal["adaptive_beta"]) -> additionally dens[K,4], beta_frame[K,4] (per-frame density-adaptive beta)"""
     ts = np.array([dt_.datetime.fromisoformat(r["t"]).timestamp() for r in frames])
     beta = {int(g): np.array(b) for g, b in cal["beta"].items()}
     cm, co = cal["conf"]["motorcycle"], cal["conf"]["other"]
     block = ((ts - ts[0]) // BLOCK_S).astype(int)
     new = np.zeros((len(frames), 4))
+    dens = np.zeros((len(frames), 4))
     for conf, cols in ((cm, slice(0, 1)), (co, slice(1, 4))):      # same per-threshold runs as calibration
         dets = [[d for d in D[r["image"]] if d[5] >= conf and d[0] in ("motorcycle", "bicycle", "car", "truck", "bus")]
                 for r in frames]
         n_all = np.zeros_like(new)
+        d_all = np.zeros_like(new)
         for b in np.unique(block):
             ii = np.where(block == b)[0]; lo = max(ii[0] - 1, 0)    # keep the previous image for matching
-            n = count_new(dets[lo:ii[-1] + 1], STATIC_FRAC)
+            sl = dets[lo:ii[-1] + 1]
+            mask = static_cells(sl, STATIC_FRAC)
+            n = count_new(sl, mask=mask)
             n_all[ii] = n[ii[0] - lo:]
+            if adaptive:
+                d_all[ii] = adaptive_beta.frame_density(sl, mask)[ii[0] - lo:]
         new[:, cols] = n_all[:, cols]
+        dens[:, cols] = d_all[:, cols]
     dt = np.diff(ts, prepend=np.nan)
     valid = ~np.isnan(dt) & (dt <= MAX_GAP_S)
     g = nearest_gap(np.nan_to_num(dt), beta.keys())
+    if adaptive:
+        beta_frame = adaptive_beta.apply(new, dens, g, cal["adaptive_beta"])
+        flow = np.where(valid[:, None], new * beta_frame, 0.0)
+        return ts, np.nan_to_num(dt), valid, new, flow, dens, beta_frame
     flow = np.where(valid[:, None], new * np.array([beta[x] for x in g]), 0.0)
     return ts, np.nan_to_num(dt), valid, new, flow
 
@@ -101,6 +115,8 @@ def main():
     ap.add_argument("--dets", type=Path, required=True, help="detection cache; created with YOLO if missing")
     ap.add_argument("--calibration", type=Path, required=True)
     ap.add_argument("--bin-min", type=int, default=60, help="aggregation bin (minutes) for the hourly table")
+    ap.add_argument("--adaptive-beta", action="store_true",
+                    help="density-adaptive per-frame beta from the calibration's adaptive_beta block (default off)")
     ap.add_argument("--out", type=Path, required=True)
     a = ap.parse_args()
 
@@ -121,6 +137,10 @@ def main():
         subprocess.run([sys.executable, "-m", "flow_estimation.detect", "--list", str(lst), "--root", str(a.root),
                         "--out", str(a.dets)], check=True)
     D = load_detections(a.dets); cal = json.load(open(a.calibration))
+    if a.adaptive_beta:
+        if "adaptive_beta" not in cal:
+            raise SystemExit(f"--adaptive-beta: {a.calibration} has no 'adaptive_beta' block (refit with calibrate.py)")
+        print("adaptive beta: on (gamma " + ", ".join(f"{k} {v}" for k, v in cal["adaptive_beta"]["gamma"].items()) + ")")
     groups = {}
     for r in frames:
         groups.setdefault((r["session"], r["camera"]), []).append(r)
@@ -129,13 +149,19 @@ def main():
     flow_out, perframe, table = {}, {}, []
     for (s, c), rows in sorted(groups.items()):
         rows.sort(key=lambda r: r["t"])
-        ts, dt, valid, new, flow = per_frame_flow(rows, D, cal)
+        if a.adaptive_beta:
+            ts, dt, valid, new, flow, dens, beta_frame = per_frame_flow(rows, D, cal, adaptive=True)
+        else:
+            ts, dt, valid, new, flow = per_frame_flow(rows, D, cal)
         key = f"{s}|{c}"
         hours = bins(ts, dt, valid, flow, a.bin_min * 60)
         ten = bins(ts, dt, valid, flow, 600)
         flow_out[key] = {"start": dt_.datetime.fromtimestamp(ts[0], TZ).isoformat(), "bins": hours, "series_10min": ten}
         perframe[key] = {"t": [r["t"] for r in rows], "dt": dt.round(3).tolist(), "valid": valid.tolist(),
                          "new": new.astype(int).tolist(), "flow": flow.round(4).tolist()}
+        if a.adaptive_beta:
+            perframe[key]["density"] = dens.astype(int).tolist()
+            perframe[key]["beta_frame"] = beta_frame.round(4).tolist()
         for h in hours:
             table.append([s, c, h["from"], h["to"], h["covered_min"], *h["veh_per_h"].values(), h["total"]])
         print(key)
@@ -143,6 +169,11 @@ def main():
             print(f"  {h['from']}-{h['to']} ({h['covered_min']:.0f} min) " + "  ".join(f"{k} {v:6d}" for k, v in h["veh_per_h"].items()) + f" | total {h['total']}")
     json.dump(flow_out, open(a.out / "flow.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(perframe, open(a.out / "perframe.json", "w", encoding="utf-8"))
+    if a.adaptive_beta:
+        ab = cal["adaptive_beta"]
+        json.dump({"gamma": ab["gamma"], "clip": ab.get("clip"), "gamma_source": ab.get("gamma_source"),
+                   "calibration": str(a.calibration)},
+                  open(a.out / "adaptive_beta_used.json", "w", encoding="utf-8"), indent=1)
     with open(a.out / "flow_bins.csv", "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh); w.writerow(["session", "camera", "from", "to", "covered_min", *CLASSES, "total"]); w.writerows(table)
     print("->", a.out)
