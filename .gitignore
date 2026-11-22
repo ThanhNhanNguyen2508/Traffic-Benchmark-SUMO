@@ -1,6 +1,8 @@
 __pycache__/
 *.pyc
 runs/
+# notebook output when run locally from notebooks/ (out/, stage/, inputs/)
+scratch/
 # SUMO outputs written next to the scenario files
 sumo/scenarios/**/tripinfos.xml
 sumo/scenarios/**/stats.xml

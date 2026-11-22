@@ -43,6 +43,7 @@ from tsc.agents import FixedTimeAgent, MaxPressureAgent, MPLightAgent  # noqa: E
 from tsc.config import ENV_CONF, EXP_CONF, MPLIGHT_AGENT_CONF, SUMO_CONF  # noqa: E402
 from tsc.env import SumoTSCEnv  # noqa: E402
 from tsc.junctions import build_junctions  # noqa: E402
+from tsc.tripinfo import parse_tripinfo, tripinfo_sumo_args  # noqa: E402
 
 SCENARIOS = ROOT / "sumo" / "scenarios"
 SPLITS = ("train", "val", "test")
@@ -98,6 +99,9 @@ def parse_args():
     ev.add_argument("--algo", required=True, choices=("mplight", "maxpressure", "fixedtime"))
     ev.add_argument("--model", type=Path, help="MPLight checkpoint (.pt)")
     ev.add_argument("--episodes", type=int, default=1, help="episodes with seeds seed, seed+1, ...")
+    ev.add_argument("--tripinfo-dir", type=Path, default=None,
+                    help="write SUMO tripinfo per episode here (incl. unfinished/undeparted vehicles) and add "
+                         "delay metrics (tsc/tripinfo.py) to the eval JSON; default: off")
     return p.parse_args()
 
 
@@ -188,6 +192,14 @@ def run_episode(env, agent, explore=False, collect=False, seed=None):
 
 
 def fmt(m):
+    s = _fmt_base(m)
+    if "delay" in m:
+        s += (f" | delay {m['delay']:.1f}s (+depart {m['delay_with_depart']:.1f}s, all {m['delay_all']:.1f}s) | "
+              f"trips arr/unf/undep {m['n_trips_arrived']}/{m['n_trips_unfinished']}/{m['n_trips_undeparted']}")
+    return s
+
+
+def _fmt_base(m):
     return (f"ATT {m['travel_time']:.1f}s (arrived-only {m['travel_time_arrived']:.1f}s) | "
             f"arrived {m['arrived']}/{m['departed']} | queue {m['avg_queue']:.1f} | "
             f"teleports {m['teleports']} | reward {m['mean_reward']:.3f}")
@@ -220,11 +232,22 @@ def cmd_eval(args):
     binding = dict(env.binding, algo=args.algo, seed=args.seed, episodes=args.episodes, run_counts=args.run_counts,
                    backend=env.backend, model=str(args.model) if args.model else None,
                    model_sha256=_sha256(args.model) if args.model else None)
+    if args.tripinfo_dir:
+        binding["tripinfo_dir"] = str(Path(args.tripinfo_dir).resolve())
+        Path(args.tripinfo_dir).mkdir(parents=True, exist_ok=True)
+        base_extra = list(env.extra_sumo_args)
     (args.out / f"binding_{args.algo}_{args.split}_{args.mode}_{stamp}.json").write_text(json.dumps(binding, indent=2))
     results = []
     for k in range(args.episodes):
         t0 = time.time()
+        if args.tripinfo_dir:
+            ti = Path(args.tripinfo_dir) / f"tripinfo_{args.algo}_{args.split}_{args.mode}_{stamp}_ep{k}.xml"
+            env.extra_sumo_args = base_extra + tripinfo_sumo_args(ti)
         m = run_episode(env, agent, explore=False, seed=args.seed + k)
+        if args.tripinfo_dir:   # env closed => SUMO flushed the file
+            m.update(parse_tripinfo(ti), tripinfo_file=str(ti))
+            if m["n_trips_arrived"] != m["arrived"]:
+                print(f"WARNING: tripinfo arrived {m['n_trips_arrived']} != env arrived {m['arrived']} (episode {k})")
         m.update(episode=k, seed=args.seed + k, wall_s=round(time.time() - t0, 1))
         results.append(m)
         print(f"[{args.algo}] episode {k}: {fmt(m)} ({m['wall_s']}s)")
